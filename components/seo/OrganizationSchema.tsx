@@ -26,7 +26,7 @@ export default function OrganizationSchema() {
       '@type': 'PostalAddress',
       addressLocality: 'Vancouver',
       addressRegion: 'BC',
-      postalCode: 'V6B 1A1',
+      postalCode: 'V5H 0H4',
       addressCountry: 'CA'
     },
     description: 'SKYNEX GLOBAL COMMERCE & TECH INC. specializes in e-commerce solutions and AI-powered tools that help businesses make better decisions and stay competitive in the digital marketplace.'

@@ -39,16 +39,16 @@ export default function ContactPage() {
                 <div>
                   <h3 className="text-lg font-semibold mb-3 text-skynex-blue dark:text-skynex-accent">New York Office</h3>
                   <div className="space-y-2 text-gray-600 dark:text-gray-300">
-                    <p>123 Tech Avenue</p>
-                    <p>New York, NY 10001</p>
+                    <p>3548 75th Street</p>
+                    <p>ackson Heights, NY 11372</p>
                     <p>United States</p>
                   </div>
                 </div>
                 <div>
                   <h3 className="text-lg font-semibold mb-3 text-skynex-blue dark:text-skynex-accent">Vancouver Office</h3>
                   <div className="space-y-2 text-gray-600 dark:text-gray-300">
-                    <p>456 Innovation Drive</p>
-                    <p>Vancouver, BC V6B 1A1</p>
+                    <p>6098 Station Street</p>
+                    <p>Vancouver, BC V5H 0H4</p>
                     <p>Canada</p>
                   </div>
                 </div>
