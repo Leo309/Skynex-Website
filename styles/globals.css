@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 18, 24, 38;
+  --background-start-rgb: 248, 250, 252;
+  --background-end-rgb: 243, 244, 246;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 248, 250, 252;
+    --background-start-rgb: 18, 24, 38;
+    --background-end-rgb: 30, 41, 59;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-skynex-blue hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition-colors;
+  }
+  
+  .btn-secondary {
+    @apply bg-transparent hover:bg-skynex-blue text-skynex-blue font-semibold hover:text-white py-2 px-4 border border-skynex-blue hover:border-transparent rounded transition-colors;
+  }
+  
+  .heading-xl {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight;
+  }
+  
+  .heading-lg {
+    @apply text-3xl md:text-4xl font-bold;
+  }
+  
+  .heading-md {
+    @apply text-2xl md:text-3xl font-bold;
+  }
+  
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .prose {
+    @apply text-gray-600 dark:text-gray-300 max-w-none leading-relaxed;
+  }
+  
+  .prose-lg {
+    @apply text-lg;
+  }
+  
+  .prose-invert {
+    @apply text-gray-300;
+  }
+  
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+  
+  @keyframes blob {
+    0% {
+      transform: translate(0px, 0px) scale(1);
+    }
+    33% {
+      transform: translate(30px, -50px) scale(1.1);
+    }
+    66% {
+      transform: translate(-20px, 20px) scale(0.9);
+    }
+    100% {
+      transform: translate(0px, 0px) scale(1);
+    }
+  }
+  
+  .animate-blob {
+    animation: blob 7s infinite;
+  }
+}
