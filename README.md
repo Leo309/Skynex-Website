@@ -8,11 +8,14 @@ SKYNEX specializes in e-commerce solutions and AI-powered tools that help busine
 
 ## Website Features
 
-- Modern, responsive design built with Next.js and Tailwind CSS
-- Dark/light mode support
-- Animated UI elements with Framer Motion
-- Comprehensive information about our services and tools
+- Modern, responsive design built with Next.js 15 and Tailwind CSS
+- Dark/light mode support with seamless transitions
+- Interactive UI elements powered by Framer Motion
+- SEO optimized with metadata API and structured data
+- Responsive layouts for all devices
+- Fast performance with server components
 - Contact form for inquiries
+- Comprehensive company and service information
 
 ## Our Tools
 
@@ -41,11 +44,28 @@ The website will be available at `http://localhost:3000`.
 
 ## Technology Stack
 
-- **Framework**: Next.js 14
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Icons**: Heroicons
+- **Framework**: Next.js 15.0.0 (App Router)
+- **Frontend**: React 18.2.0
+- **Database**: Supabase
+- **Styling**: Tailwind CSS 3.4.0
+- **Animations**: Framer Motion 11.0.0
+- **Icons**: Heroicons 2.1.0
+- **Type Safety**: TypeScript
 - **Deployment**: Vercel
+
+## Project Structure
+
+The project follows a feature-based structure with App Router:
+
+```
+/app                # Next.js App Router routes and pages
+/components         # Reusable UI components
+/lib                # Utilities, hooks, and shared functions
+/public             # Static assets
+/styles             # Global styles
+```
+
+For more details on the codebase organization and standards, refer to our internal CODE_STANDARDS documentation.
 
 ## License
 
