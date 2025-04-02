@@ -144,8 +144,3 @@ export default function TermsOfServicePage() {
     </div>
   );
 }
-
-export const metadata = {
-  title: 'Terms of Service | SKYNEX GLOBAL COMMERCE & TECH INC.',
-  description: 'Terms of Service for SKYNEX GLOBAL COMMERCE & TECH INC. Please read these terms before using our website and services.',
-};

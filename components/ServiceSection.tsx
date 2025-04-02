@@ -5,45 +5,46 @@ export default function ServiceSection() {
     <section className="py-16 bg-white dark:bg-gray-900">
       <div className="container-custom">
         <div className="text-center mb-12">
-          <h2 className="heading-lg mb-4">Our Services</h2>
+          <h2 className="heading-lg mb-4">Our Solutions</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Comprehensive solutions for modern businesses looking to thrive in the digital marketplace
+            Powerful tools and platforms that transform complex data into clear, 
+            actionable insights for businesses of all sizes.
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-16 items-center">
           {/* E-Commerce Solutions */}
           <div>
-            <h3 className="heading-md mb-4 text-skynex-blue dark:text-skynex-accent">E-Commerce Solutions</h3>
+            <h3 className="heading-md mb-4 text-skynex-blue dark:text-skynex-accent">Financial Analytics Tools</h3>
             <p className="text-gray-600 dark:text-gray-300 mb-6">
-              Transform your online business with our end-to-end e-commerce solutions. 
-              We design and develop scalable platforms that enhance user experience, 
-              boost conversions, and create seamless shopping journeys.
+              Make informed financial decisions with our sophisticated analytics tools. 
+              Our data-driven solutions help you understand market trends, forecast outcomes,
+              and optimize your financial strategy with precision.
             </p>
             <ul className="space-y-3">
               <li className="flex items-start">
                 <svg className="w-5 h-5 text-green-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                 </svg>
-                <span className="text-gray-700 dark:text-gray-300">Custom storefront development</span>
+                <span className="text-gray-700 dark:text-gray-300">Inflation impact analysis</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-5 h-5 text-green-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                 </svg>
-                <span className="text-gray-700 dark:text-gray-300">Payment gateway integration</span>
+                <span className="text-gray-700 dark:text-gray-300">Economic trend visualization</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-5 h-5 text-green-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                 </svg>
-                <span className="text-gray-700 dark:text-gray-300">Inventory management systems</span>
+                <span className="text-gray-700 dark:text-gray-300">Investment scenario modeling</span>
               </li>
               <li className="flex items-start">
                 <svg className="w-5 h-5 text-green-500 mr-3 mt-1" fill="currentColor" viewBox="0 0 20 20">
                   <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                 </svg>
-                <span className="text-gray-700 dark:text-gray-300">Customer relationship management</span>
+                <span className="text-gray-700 dark:text-gray-300">Real-time financial monitoring</span>
               </li>
             </ul>
           </div>
@@ -54,7 +55,7 @@ export default function ServiceSection() {
               <svg className="mx-auto h-12 w-12 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
               </svg>
-              <p>E-Commerce Illustration</p>
+              <p>Financial Analytics Tools</p>
               <p className="text-xs mt-2">(Custom illustration will be added)</p>
             </div>
           </div>

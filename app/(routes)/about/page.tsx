@@ -15,7 +15,7 @@ export default function AboutPage() {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="heading-xl mb-6">About SKYNEX</h1>
             <p className="text-xl text-gray-300">
-              Building innovative digital commerce solutions and AI tools for the global market.
+              Creating intelligent, data-driven tools to power better business decisions worldwide.
             </p>
           </div>
         </div>
@@ -28,9 +28,8 @@ export default function AboutPage() {
             <div>
               <h2 className="heading-md mb-6 text-skynex-blue dark:text-skynex-accent">Our Mission</h2>
               <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
-                At SKYNEX, our mission is to bridge the gap between cutting-edge technology and practical business applications. 
-                We're committed to developing innovative solutions that empower businesses to thrive in an increasingly 
-                digital economy.
+                At SKYNEX, our mission is to transform complex data into intuitive, actionable tools that businesses can rely on.
+                We're committed to developing powerful SaaS solutions that democratize access to sophisticated analytical capabilities.
               </p>
               <p className="text-lg text-gray-700 dark:text-gray-300">
                 We believe that powerful technology should be accessible, understandable, and beneficial for 
@@ -59,22 +58,13 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto">
             <div className="prose prose-lg dark:prose-invert mx-auto">
               <p>
-                SKYNEX GLOBAL COMMERCE & TECH INC. was founded in British Columbia, Canada with a clear vision - to develop 
-                technology solutions that make a meaningful impact in the way businesses operate in the digital space.
-                This is the official website of SKYNEX GLOBAL COMMERCE & TECH INC., accessible at <a href="https://skynexdigital.com" className="text-skynex-blue dark:text-skynex-accent hover:underline">skynexdigital.com</a>.
+                SKYNEX GLOBAL COMMERCE & TECH INC. was founded in British Columbia, Canada with a clear vision: creating technology solutions that transform how businesses operate in the digital space. This is the official website of SKYNEX GLOBAL COMMERCE & TECH INC., accessible at <a href="https://skynexdigital.com" className="text-skynex-blue dark:text-skynex-accent hover:underline">skynexdigital.com</a>.
               </p>
               <p>
-                Starting with our flagship Inflation Calculator tool, we demonstrated our commitment to creating 
-                practical applications that help businesses and individuals make more informed financial decisions.
+                Our founder brings data expertise from analyzing multi-million dollar datasets and close relationships with successful e-commerce entrepreneurs. This unique combination of technical knowledge and business understanding drives our product development.
               </p>
               <p>
-                Our team brings together expertise in e-commerce, artificial intelligence, and data analytics, allowing 
-                us to tackle complex business challenges with innovative approaches. With offices in New York City and 
-                Vancouver, we serve clients globally while maintaining a strong North American presence.
-              </p>
-              <p>
-                Today, SKYNEX continues to grow, expanding our suite of tools and services while staying true to our 
-                core mission of bridging technology and commerce in ways that create real value for our users.
+                We launched our Inflation Calculator as the first in a series of practical tools to help businesses make more informed financial decisions. Today, SKYNEX continues to expand our suite of data-driven SaaS solutions, serving clients globally from our offices in New York City and Vancouver.
               </p>
             </div>
           </div>
@@ -126,11 +116,11 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section - Placeholder for future team members */}
+      {/* Team Section */}
       <section className="py-16 bg-gray-50 dark:bg-gray-800">
         <div className="container-custom">
-          <h2 className="heading-lg mb-12 text-center">Our Leadership</h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <h2 className="heading-lg mb-12 text-center">Our Team & Partners</h2>
+          <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-sm">
               <div className="aspect-w-1 aspect-h-1 bg-gray-200 dark:bg-gray-700">
                 <div className="flex items-center justify-center h-64">
@@ -140,11 +130,11 @@ export default function AboutPage() {
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-1">CEO & Founder</h3>
-                <p className="text-gray-600 dark:text-gray-400 mb-4">Leading our vision and strategy</p>
+                <h3 className="text-xl font-bold mb-1">Founder & CEO</h3>
+                <p className="text-gray-600 dark:text-gray-400 mb-4">Data Scientist & Business Strategist</p>
                 <p className="text-gray-600 dark:text-gray-300">
-                  With a background in technology and e-commerce, our founder is passionate about creating innovative 
-                  solutions that solve real business challenges.
+                  With expertise in data analysis and business intelligence, our founder brings years of experience 
+                  working with complex datasets and developing practical solutions for real-world business challenges.
                 </p>
               </div>
             </div>
@@ -152,33 +142,17 @@ export default function AboutPage() {
               <div className="aspect-w-1 aspect-h-1 bg-gray-200 dark:bg-gray-700">
                 <div className="flex items-center justify-center h-64">
                   <svg className="w-16 h-16 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
+                    <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z" />
                   </svg>
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-1">CTO</h3>
-                <p className="text-gray-600 dark:text-gray-400 mb-4">Technology & Innovation</p>
+                <h3 className="text-xl font-bold mb-1">Strategic Partners</h3>
+                <p className="text-gray-600 dark:text-gray-400 mb-4">E-Commerce & Technology Experts</p>
                 <p className="text-gray-600 dark:text-gray-300">
-                  Leading our development team with expertise in AI, machine learning, and scalable architecture 
-                  to build robust, future-proof solutions.
-                </p>
-              </div>
-            </div>
-            <div className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-sm">
-              <div className="aspect-w-1 aspect-h-1 bg-gray-200 dark:bg-gray-700">
-                <div className="flex items-center justify-center h-64">
-                  <svg className="w-16 h-16 text-gray-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
-                  </svg>
-                </div>
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-1">Chief Data Officer</h3>
-                <p className="text-gray-600 dark:text-gray-400 mb-4">Data Strategy & Analytics</p>
-                <p className="text-gray-600 dark:text-gray-300">
-                  Specializing in turning complex data into actionable insights and building the data infrastructure 
-                  that powers our intelligent solutions.
+                  We collaborate with industry-leading experts and businesses to ensure our tools and solutions 
+                  address the real needs of the market. Our NYC-based e-commerce partner brings invaluable 
+                  market insights and operational expertise to our product development.
                 </p>
               </div>
             </div>

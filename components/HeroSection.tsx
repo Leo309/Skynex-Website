@@ -25,7 +25,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            Bridging Technology & Commerce
+            Empowering Decisions with Data & AI
           </motion.h1>
           
           <motion.p 
@@ -34,7 +34,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
           >
-            SKYNEX creates innovative e-commerce solutions and AI-powered tools that transform how businesses operate in the digital economy.
+            SKYNEX provides data-driven, AI-powered tools that enhance decision-making for finance, business and e-commerce teams through flexible SaaS delivery.
           </motion.p>
           
           <motion.div 
@@ -60,8 +60,8 @@ export default function HeroSection() {
               <div className="text-gray-400">AI Tools</div>
             </div>
             <div className="bg-gray-900/50 backdrop-blur-sm rounded-lg p-6">
-              <div className="text-3xl md:text-4xl font-bold text-skynex-accent mb-2">5k+</div>
-              <div className="text-gray-400">Monthly Users</div>
+              <div className="text-3xl md:text-4xl font-bold text-skynex-accent mb-2">500+</div>
+              <div className="text-gray-400">Daily Calculations</div>
             </div>
             <div className="bg-gray-900/50 backdrop-blur-sm rounded-lg p-6">
               <div className="text-3xl md:text-4xl font-bold text-skynex-accent mb-2">2</div>

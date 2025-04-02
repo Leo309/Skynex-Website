@@ -8,8 +8,8 @@ export default function FeaturedTools() {
         <div className="text-center mb-12">
           <h2 className="heading-lg mb-4">Our Digital Tools</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Practical solutions powered by data and AI to help you make better decisions
-            and stay ahead in today's fast-paced business environment.
+            Data-powered solutions designed to enhance decision-making and help your 
+            business thrive in today's competitive environment.
           </p>
         </div>
         

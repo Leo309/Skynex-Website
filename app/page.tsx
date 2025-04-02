@@ -13,10 +13,10 @@ export default function Home() {
       <section className="py-16 bg-white dark:bg-gray-900">
         <div className="container-custom">
           <div className="text-center mb-12">
-            <h2 className="heading-lg mb-4">Global Innovation & Commerce</h2>
+            <h2 className="heading-lg mb-4">Intelligent Tools for Global Business</h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              At SKYNEX, we bridge the gap between cutting-edge technology and global commerce, 
-              creating digital solutions that empower businesses to thrive in a competitive marketplace.
+              At SKYNEX, we create powerful data-driven tools that help businesses gain insights, make 
+              better decisions and achieve competitive advantages in rapidly evolving markets.
             </p>
           </div>
           
@@ -41,9 +41,10 @@ export default function Home() {
                   <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-2">E-Commerce Solutions</h3>
+              <h3 className="text-xl font-bold mb-2">SaaS Delivery</h3>
               <p className="text-gray-600 dark:text-gray-300">
-                End-to-end digital commerce platforms that drive sales and enhance customer experiences.
+                Our tools are available as Software-as-a-Service, making powerful data solutions 
+                accessible and scalable for organizations of every size and industry.
               </p>
             </div>
             

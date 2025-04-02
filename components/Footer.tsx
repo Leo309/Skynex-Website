@@ -9,10 +9,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="md:col-span-2">
-            <h3 className="text-xl font-bold mb-4 text-skynex-accent">SKYNEX GLOBAL</h3>
+            <h3 className="text-xl font-bold mb-4 text-skynex-accent">SKYNEX DIGITAL</h3>
             <p className="mb-4 text-gray-300">
               SKYNEX GLOBAL COMMERCE & TECH INC.<br />
-              Building innovative e-commerce and AI solutions from British Columbia, Canada.
+              Building data-driven, AI-powered tools to enhance financial, e-commerce, and business solutions globally as SaaS.
             </p>
             <div className="flex space-x-4">
               <a href="https://linkedin.com" className="text-gray-300 hover:text-white">
@@ -74,9 +74,8 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-800 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <div className="text-sm text-gray-400 space-y-2">
+          <div className="text-sm text-gray-400">
             <p>Copyright &copy; {new Date().getFullYear()} SKYNEX GLOBAL COMMERCE & TECH INC. All rights reserved.</p>
-            <p>This website is owned by SKYNEX GLOBAL COMMERCE & TECH INC.</p>
           </div>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="/privacy" className="text-sm text-gray-400 hover:text-gray-300">Privacy Policy</Link>

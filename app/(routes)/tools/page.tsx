@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Digital Tools | SKYNEX GLOBAL COMMERCE & TECH INC.',
-  description: 'Explore our suite of AI-powered tools for e-commerce and business intelligence.',
+  title: 'AI-Powered Tools | SKYNEX GLOBAL COMMERCE & TECH INC.',
+  description: 'Explore our suite of data-driven, AI-powered SaaS tools for financial analytics, business intelligence, and decision support.',
 };
 
 export default function ToolsPage() {
