@@ -40,7 +40,7 @@ export default function ContactPage() {
                   <h3 className="text-lg font-semibold mb-3 text-skynex-blue dark:text-skynex-accent">New York Office</h3>
                   <div className="space-y-2 text-gray-600 dark:text-gray-300">
                     <p>3548 75th Street</p>
-                    <p>ackson Heights, NY 11372</p>
+                    <p>Jackson Heights, NY 11372</p>
                     <p>United States</p>
                   </div>
                 </div>
