@@ -74,13 +74,12 @@ export default function ToolsPage() {
                 </div>
                 <div className="md:w-3/5 p-8">
                   <div className="aspect-w-16 aspect-h-9 mb-6">
-                    <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center">
-                      <div className="text-center text-gray-500">
-                        <svg className="w-12 h-12 mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                          <path fillRule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd"></path>
-                        </svg>
-                        <span>Inflation Calculator Screenshot</span>
-                      </div>
+                    <div className="w-full h-64 overflow-hidden rounded-lg">
+                      <img 
+                        src="/images/tools/Inflation Calculator.png" 
+                        alt="Inflation Calculator Tool Interface" 
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                   </div>
                   <h4 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Why Use Our Inflation Calculator?</h4>
@@ -98,36 +97,36 @@ export default function ToolsPage() {
               </div>
             </div>
             
-            {/* AI Market Analyzer (Coming Soon) */}
+            {/* Financial Analytics Tools (Coming Soon) */}
             <div className="mb-16 bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden relative">
               <div className="absolute top-4 right-4 bg-gradient-to-r from-purple-600 to-blue-500 text-white text-sm py-1 px-3 rounded-full">
                 Coming Soon
               </div>
               <div className="md:flex">
                 <div className="md:w-2/5 bg-gradient-to-br from-purple-600 to-indigo-700 p-8 text-white">
-                  <h3 className="text-2xl font-bold mb-4">AI Market Analyzer</h3>
+                  <h3 className="text-2xl font-bold mb-4">Financial Analytics Tools</h3>
                   <p className="mb-6">
-                    Harness the power of artificial intelligence to analyze market trends, predict consumer behavior, 
-                    and optimize your business strategy.
+                    Gain powerful insights into financial markets and performance metrics with our comprehensive 
+                    analytics platform designed for investors and business decision makers.
                   </p>
                   <div className="mb-8">
                     <div className="flex items-center mb-2">
                       <svg className="w-5 h-5 mr-2 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                       </svg>
-                      <span>Advanced NLP processing</span>
+                      <span>Advanced market indicators</span>
                     </div>
                     <div className="flex items-center mb-2">
                       <svg className="w-5 h-5 mr-2 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                       </svg>
-                      <span>Competitive analysis</span>
+                      <span>Portfolio performance tracking</span>
                     </div>
                     <div className="flex items-center mb-2">
                       <svg className="w-5 h-5 mr-2 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                       </svg>
-                      <span>Real-time trend detection</span>
+                      <span>Real-time financial data</span>
                     </div>
                     <div className="flex items-center">
                       <svg className="w-5 h-5 mr-2 text-white" fill="currentColor" viewBox="0 0 20 20">
@@ -145,25 +144,24 @@ export default function ToolsPage() {
                 </div>
                 <div className="md:w-3/5 p-8">
                   <div className="aspect-w-16 aspect-h-9 mb-6">
-                    <div className="w-full h-64 bg-gray-200 dark:bg-gray-700 rounded-lg flex items-center justify-center">
-                      <div className="text-center text-gray-500">
-                        <svg className="w-12 h-12 mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M10 3.5a1.5 1.5 0 013 0V4a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-.5a1.5 1.5 0 000 3h.5a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-.5a1.5 1.5 0 00-3 0v.5a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1h-.5a1.5 1.5 0 010-3H4a1 1 0 001-1V6a1 1 0 011-1h3a1 1 0 001-1v-.5z"></path>
-                        </svg>
-                        <span>AI Market Analyzer Preview</span>
-                      </div>
+                    <div className="w-full h-64 overflow-hidden rounded-lg">
+                      <img 
+                        src="/images/tools/Financial Analytics Tools.png" 
+                        alt="Financial Analytics Tools Interface" 
+                        className="w-full h-full object-cover"
+                      />
                     </div>
                   </div>
-                  <h4 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Transform Your Market Intelligence</h4>
+                  <h4 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Transform Your Financial Decision Making</h4>
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    In today's fast-paced markets, having the right information at the right time is crucial. 
-                    Our AI Market Analyzer will help you:
+                    In today's complex financial markets, having comprehensive analytics is essential for making 
+                    informed decisions. Our Financial Analytics Tools will help you:
                   </p>
                   <ul className="space-y-2 text-gray-600 dark:text-gray-300">
-                    <li>• Identify emerging market trends before your competitors</li>
-                    <li>• Understand consumer sentiment across various channels</li>
-                    <li>• Optimize pricing and product strategies based on AI insights</li>
-                    <li>• Make data-driven decisions with confidence</li>
+                    <li>• Track and analyze your investments in real-time</li>
+                    <li>• Identify market trends and potential opportunities</li>
+                    <li>• Compare performance across different asset classes</li>
+                    <li>• Make data-driven financial decisions with confidence</li>
                   </ul>
                 </div>
               </div>

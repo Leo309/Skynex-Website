@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
   return (
@@ -9,7 +10,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="md:col-span-2">
-            <h3 className="text-xl font-bold mb-4 text-skynex-accent">SKYNEX DIGITAL</h3>
+            <div className="mb-4">
+              <Image 
+                src="/images/SKYNEX_500_WHITE.png" 
+                alt="SKYNEX" 
+                width={180} 
+                height={60} 
+                className="h-14 w-auto object-contain" 
+              />
+            </div>
             <p className="mb-4 text-gray-300">
               SKYNEX GLOBAL COMMERCE & TECH INC.<br />
               Building data-driven, AI-powered tools to enhance financial, e-commerce, and business solutions globally as SaaS.

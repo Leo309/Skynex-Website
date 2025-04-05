@@ -14,6 +14,7 @@ export default function ContactForm() {
   
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [errorMessage, setErrorMessage] = useState<string>('');
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
@@ -26,18 +27,21 @@ export default function ContactForm() {
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
+    setErrorMessage('');
     
-    // Simulate form submission
     try {
-      // In a real app, you would send this data to your backend
-      // await fetch('/api/contact', {
-      //   method: 'POST',
-      //   headers: { 'Content-Type': 'application/json' },
-      //   body: JSON.stringify(formData)
-      // });
+      // Send data to our API endpoint that connects to Supabase
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
+      });
       
-      // Simulate network delay
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      const result = await response.json();
+      
+      if (!response.ok) {
+        throw new Error(result.error || 'Failed to submit form');
+      }
       
       setSubmitStatus('success');
       setFormData({
@@ -50,6 +54,7 @@ export default function ContactForm() {
       });
     } catch (error) {
       setSubmitStatus('error');
+      setErrorMessage(error instanceof Error ? error.message : 'An unexpected error occurred');
     } finally {
       setIsSubmitting(false);
       
@@ -73,7 +78,7 @@ export default function ContactForm() {
       {submitStatus === 'error' && (
         <div className="bg-red-50 dark:bg-red-900 p-4 rounded-md mb-6">
           <p className="text-red-800 dark:text-red-200">
-            There was an error sending your message. Please try again later.
+            {errorMessage || 'There was an error sending your message. Please try again later.'}
           </p>
         </div>
       )}

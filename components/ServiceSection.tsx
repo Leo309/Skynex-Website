@@ -49,27 +49,25 @@ export default function ServiceSection() {
             </ul>
           </div>
           
-          {/* Illustration/Placeholder - Replace with actual illustration in production */}
-          <div className="rounded-lg bg-gray-100 dark:bg-gray-800 p-8 flex items-center justify-center h-64 md:h-96">
-            <div className="text-center text-gray-500 dark:text-gray-400">
-              <svg className="mx-auto h-12 w-12 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
-              </svg>
-              <p>Financial Analytics Tools</p>
-              <p className="text-xs mt-2">(Custom illustration will be added)</p>
-            </div>
+          {/* Financial Analytics Tools Image */}
+          <div className="rounded-lg overflow-hidden h-64 md:h-96 flex items-center justify-center">
+            <img 
+              src="/images/tools/Financial Analytics Tools.png" 
+              alt="Financial Analytics Tools Interface" 
+              className="w-full h-full object-contain"
+            />
           </div>
         </div>
         
         <div className="mt-24 grid md:grid-cols-2 gap-16 items-center">
-          {/* Illustration/Placeholder - Replace with actual illustration in production */}
+          {/* AI Solutions Image - Will be replaced when available */}
           <div className="rounded-lg bg-gray-100 dark:bg-gray-800 p-8 flex items-center justify-center h-64 md:h-96 md:order-1 order-2">
             <div className="text-center text-gray-500 dark:text-gray-400">
               <svg className="mx-auto h-12 w-12 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
               </svg>
-              <p>AI Solutions Illustration</p>
-              <p className="text-xs mt-2">(Custom illustration will be added)</p>
+              <p className="font-medium">AI Solutions</p>
+              <p className="text-xs mt-2">Coming soon</p>
             </div>
           </div>
           

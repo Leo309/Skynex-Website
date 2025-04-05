@@ -16,7 +16,7 @@ export default function ContactPage() {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="heading-xl mb-6">Get In Touch</h1>
             <p className="text-xl text-gray-300">
-              Have questions about our solutions? Ready to start a project? We'd love to hear from you.
+              Have questions about our solutions? We'd love to hear from you.
             </p>
           </div>
         </div>
@@ -40,15 +40,15 @@ export default function ContactPage() {
                   <h3 className="text-lg font-semibold mb-3 text-skynex-blue dark:text-skynex-accent">New York Office</h3>
                   <div className="space-y-2 text-gray-600 dark:text-gray-300">
                     <p>3548 75th Street</p>
-                    <p>Jackson Heights, NY 11372</p>
+                    <p>Jackson Heights, NY 11375</p>
                     <p>United States</p>
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-lg font-semibold mb-3 text-skynex-blue dark:text-skynex-accent">Vancouver Office</h3>
+                  <h3 className="text-lg font-semibold mb-3 text-skynex-blue dark:text-skynex-accent">Metro Vancouver Office</h3>
                   <div className="space-y-2 text-gray-600 dark:text-gray-300">
                     <p>6098 Station Street</p>
-                    <p>Vancouver, BC V5H 0H4</p>
+                    <p>Burnaby, BC V5H 0H4</p>
                     <p>Canada</p>
                   </div>
                 </div>

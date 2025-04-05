@@ -7,6 +7,10 @@ import OrganizationSchema from '../components/seo/OrganizationSchema';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata = {
+  icons: {
+    icon: '/images/SKYNEX_500_BLUE.png',
+    apple: '/images/SKYNEX_500_BLUE.png',
+  },
   title: {
     template: '%s | SKYNEX GLOBAL COMMERCE & TECH INC.',
     default: 'SKYNEX GLOBAL COMMERCE & TECH INC.',

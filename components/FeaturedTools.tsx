@@ -16,7 +16,7 @@ export default function FeaturedTools() {
         <div className="grid md:grid-cols-2 gap-8 mt-12">
           {/* Inflation Calculator */}
           <div className="bg-white dark:bg-gray-900 rounded-xl shadow-md overflow-hidden flex flex-col">
-            <div className="p-6 flex-grow">
+            <div className="p-6 pb-3 flex-grow">
               <div className="flex items-center mb-4">
                 <div className="rounded-full bg-blue-100 dark:bg-blue-900 p-3 mr-4">
                   <svg className="w-6 h-6 text-skynex-blue" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -24,6 +24,13 @@ export default function FeaturedTools() {
                   </svg>
                 </div>
                 <h3 className="text-xl font-bold">Inflation Calculator</h3>
+              </div>
+              <div className="mb-4 h-40 overflow-hidden rounded-lg">
+                <img 
+                  src="/images/tools/Inflation Calculator.png" 
+                  alt="Inflation Calculator Tool Interface" 
+                  className="w-full h-full object-contain"
+                />
               </div>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
                 Accurately measure the impact of inflation on your purchasing power over time. 
@@ -65,38 +72,45 @@ export default function FeaturedTools() {
           
           {/* Coming Soon Tool */}
           <div className="bg-white dark:bg-gray-900 rounded-xl shadow-md overflow-hidden flex flex-col">
-            <div className="p-6 flex-grow">
+            <div className="p-6 pb-3 flex-grow">
               <div className="flex items-center mb-4">
                 <div className="rounded-full bg-purple-100 dark:bg-purple-900 p-3 mr-4">
                   <svg className="w-6 h-6 text-purple-600" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                     <path d="M10 3.5a1.5 1.5 0 013 0V4a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-.5a1.5 1.5 0 000 3h.5a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-.5a1.5 1.5 0 00-3 0v.5a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1h-.5a1.5 1.5 0 010-3H4a1 1 0 001-1V6a1 1 0 011-1h3a1 1 0 001-1v-.5z"></path>
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold">AI Market Analyzer</h3>
+                <h3 className="text-xl font-bold">Financial Analytics Tools</h3>
                 <span className="ml-3 bg-gradient-to-r from-purple-600 to-blue-500 text-white text-xs py-1 px-2 rounded-full">Coming Soon</span>
               </div>
+              <div className="mb-4 h-40 overflow-hidden rounded-lg">
+                <img 
+                  src="/images/tools/Financial Analytics Tools.png" 
+                  alt="Financial Analytics Tools Interface" 
+                  className="w-full h-full object-contain"
+                />
+              </div>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
-                Harness the power of artificial intelligence to analyze market trends, predict 
-                consumer behavior, and optimize your business strategy with actionable insights.
+                Gain powerful insights into financial markets and performance metrics with our comprehensive 
+                analytics platform designed for investors and business decision makers.
               </p>
               <div className="mt-4 space-y-2">
                 <div className="flex items-center text-gray-600 dark:text-gray-300">
                   <svg className="w-5 h-5 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                   </svg>
-                  <span>Advanced NLP processing</span>
+                  <span>Advanced market indicators</span>
                 </div>
                 <div className="flex items-center text-gray-600 dark:text-gray-300">
                   <svg className="w-5 h-5 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                   </svg>
-                  <span>Competitive analysis</span>
+                  <span>Portfolio performance tracking</span>
                 </div>
                 <div className="flex items-center text-gray-600 dark:text-gray-300">
                   <svg className="w-5 h-5 mr-2 text-green-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                   </svg>
-                  <span>Real-time trend detection</span>
+                  <span>Real-time financial data</span>
                 </div>
               </div>
             </div>

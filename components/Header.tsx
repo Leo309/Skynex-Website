@@ -17,7 +17,24 @@ export default function Header() {
         <div className="flex items-center justify-between py-4">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2">
-            <span className="text-xl font-bold text-skynex-blue dark:text-skynex-accent">SKYNEX</span>
+            <div className="h-16 relative">
+              <Image 
+                src="/images/SKYNEX_500_BLUE.png" 
+                alt="SKYNEX" 
+                width={200} 
+                height={60} 
+                className="w-auto h-full object-contain block dark:hidden" 
+                priority
+              />
+              <Image 
+                src="/images/SKYNEX_500_WHITE.png" 
+                alt="SKYNEX" 
+                width={200} 
+                height={60} 
+                className="w-auto h-full object-contain hidden dark:block" 
+                priority
+              />
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
