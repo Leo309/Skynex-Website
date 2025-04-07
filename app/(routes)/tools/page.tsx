@@ -32,7 +32,7 @@ export default function ToolsPage() {
             <div className="mb-16 bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden">
               <div className="md:flex">
                 <div className="md:w-2/5 bg-gradient-to-br from-blue-600 to-skynex-blue p-8 text-white">
-                  <h3 className="text-2xl font-bold mb-4">Inflation Calculator</h3>
+                  <h3 className="text-2xl font-bold mb-4">Inflation Impact Calculator</h3>
                   <p className="mb-6">
                     Understand the real impact of inflation on your purchasing power with our 
                     comprehensive calculator tool.
@@ -77,7 +77,7 @@ export default function ToolsPage() {
                     <div className="w-full h-64 overflow-hidden rounded-lg">
                       <img 
                         src="/images/tools/Inflation Calculator.png" 
-                        alt="Inflation Calculator Tool Interface" 
+                        alt="Inflation Impact Calculator Tool Interface" 
                         className="w-full h-full object-cover"
                       />
                     </div>
@@ -254,15 +254,12 @@ export default function ToolsPage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
               <p className="italic text-gray-600 dark:text-gray-300 mb-6">
-                "The Inflation Calculator has become an essential tool for our financial planning. It's intuitive, 
+                "The Inflation Impact Calculator has become an essential tool for our financial planning. It's intuitive, 
                 accurate, and provides insights that help us make better investment decisions."
               </p>
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-gray-300 dark:bg-gray-600 rounded-full mr-4"></div>
-                <div>
-                  <h4 className="font-bold">Financial Analyst</h4>
-                  <p className="text-sm text-gray-500">Investment Firm</p>
-                </div>
+              <div>
+                <h4 className="font-bold">Financial Analyst</h4>
+                <p className="text-sm text-gray-500">Investment Firm</p>
               </div>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
@@ -270,12 +267,9 @@ export default function ToolsPage() {
                 "What sets SKYNEX's tools apart is the attention to detail and user experience. 
                 The data is comprehensive, but presented in a way that's easy to understand and actionable."
               </p>
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-gray-300 dark:bg-gray-600 rounded-full mr-4"></div>
-                <div>
-                  <h4 className="font-bold">E-Commerce Manager</h4>
-                  <p className="text-sm text-gray-500">Retail Company</p>
-                </div>
+              <div>
+                <h4 className="font-bold">E-Commerce Manager</h4>
+                <p className="text-sm text-gray-500">Retail Company</p>
               </div>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
@@ -283,12 +277,9 @@ export default function ToolsPage() {
                 "We've been on the waitlist for the AI Market Analyzer and can't wait to start using it. 
                 If it's anything like their other tools, it will be a game-changer for our market research."
               </p>
-              <div className="flex items-center">
-                <div className="w-12 h-12 bg-gray-300 dark:bg-gray-600 rounded-full mr-4"></div>
-                <div>
-                  <h4 className="font-bold">Marketing Director</h4>
-                  <p className="text-sm text-gray-500">Tech Startup</p>
-                </div>
+              <div>
+                <h4 className="font-bold">Marketing Director</h4>
+                <p className="text-sm text-gray-500">Tech Startup</p>
               </div>
             </div>
           </div>
@@ -301,7 +292,7 @@ export default function ToolsPage() {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="heading-lg mb-6">Ready to Experience Our Tools?</h2>
             <p className="text-lg mb-8 text-blue-100">
-              Whether you're looking to use our existing tools or discuss custom solutions for your business, 
+              Whether you're looking to use our tools or discuss custom solutions for your business, 
               we're here to help you leverage data and technology for better decision-making.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -311,7 +302,7 @@ export default function ToolsPage() {
                 rel="noopener noreferrer" 
                 className="bg-white text-blue-700 hover:bg-blue-50 font-bold py-3 px-8 rounded-md transition-colors text-lg"
               >
-                Try Inflation Calculator
+                Try Inflation Impact Calculator
               </a>
               <Link 
                 href="/contact" 
