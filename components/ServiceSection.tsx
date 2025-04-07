@@ -60,15 +60,13 @@ export default function ServiceSection() {
         </div>
         
         <div className="mt-24 grid md:grid-cols-2 gap-16 items-center">
-          {/* AI Solutions Image - Will be replaced when available */}
-          <div className="rounded-lg bg-gray-100 dark:bg-gray-800 p-8 flex items-center justify-center h-64 md:h-96 md:order-1 order-2">
-            <div className="text-center text-gray-500 dark:text-gray-400">
-              <svg className="mx-auto h-12 w-12 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-              </svg>
-              <p className="font-medium">AI & Smart Agents</p>
-              <p className="text-xs mt-2">Coming soon</p>
-            </div>
+          {/* AI & Smart Agents Image */}
+          <div className="rounded-lg overflow-hidden h-64 md:h-96 flex items-center justify-center md:order-1 order-2">
+            <img 
+              src="/images/tools/AI & Smart Agents Cartoon.png" 
+              alt="AI & Smart Agents Interface" 
+              className="w-full h-full object-contain"
+            />
           </div>
           
           {/* AI & Data Solutions */}

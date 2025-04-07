@@ -73,7 +73,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Our Tools</h3>
             <ul className="space-y-2">
               <li>
-                <a href="https://inflation.skynexdigital.com" className="text-gray-300 hover:text-white">Inflation Calculator</a>
+                <a href="https://inflation.skynexdigital.com" className="text-gray-300 hover:text-white">Inflation Impact Calculator</a>
               </li>
               <li>
                 <span className="text-gray-500">More Coming Soon</span>

@@ -27,7 +27,7 @@ export default function FeaturedTools() {
               </div>
               <div className="mb-4 h-40 overflow-hidden rounded-lg">
                 <img 
-                  src="/images/tools/Inflation Calculator.png" 
+                  src="/images/tools/Inflation Impact Calculator.png" 
                   alt="Inflation Impact Calculator Tool Interface" 
                   className="w-full h-full object-contain"
                 />
