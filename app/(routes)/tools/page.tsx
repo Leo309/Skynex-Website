@@ -26,13 +26,13 @@ export default function ToolsPage() {
       <section className="py-16 bg-white dark:bg-gray-900">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
-            <h2 className="heading-lg mb-12 text-center">Our Tools</h2>
+            <h2 className="heading-lg mb-12 text-center text-gray-900 dark:text-white">Our Tools</h2>
             
             {/* Inflation Calculator */}
             <div className="mb-16 bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden">
               <div className="md:flex">
                 <div className="md:w-2/5 bg-gradient-to-br from-blue-600 to-skynex-blue p-8 text-white">
-                  <h3 className="text-2xl font-bold mb-4">Inflation Impact Calculator</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-white">Inflation Impact Calculator</h3>
                   <p className="mb-6">
                     Understand the real impact of inflation on your purchasing power with our 
                     comprehensive calculator tool.
@@ -76,7 +76,7 @@ export default function ToolsPage() {
                   <div className="aspect-w-16 aspect-h-9 mb-6">
                     <div className="w-full h-64 overflow-hidden rounded-lg">
                       <img 
-                        src="/images/tools/Inflation Calculator.png" 
+                        src="/images/tools/Inflation Impact Calculator.png" 
                         alt="Inflation Impact Calculator Tool Interface" 
                         className="w-full h-full object-cover"
                       />
@@ -104,7 +104,7 @@ export default function ToolsPage() {
               </div>
               <div className="md:flex">
                 <div className="md:w-2/5 bg-gradient-to-br from-purple-600 to-indigo-700 p-8 text-white">
-                  <h3 className="text-2xl font-bold mb-4">Financial Analytics Tools</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-white">Financial Analytics Tools</h3>
                   <p className="mb-6">
                     Gain powerful insights into financial markets and performance metrics with our comprehensive 
                     analytics platform designed for investors and business decision makers.
@@ -169,7 +169,7 @@ export default function ToolsPage() {
             
             {/* Custom Solutions */}
             <div className="bg-gray-50 dark:bg-gray-700 rounded-xl p-8 text-center">
-              <h3 className="text-2xl font-bold mb-4">Need a Custom Solution?</h3>
+              <h3 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">Need a Custom Solution?</h3>
               <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-6">
                 We specialize in developing tailored tools and platforms for specific business needs. 
                 Our team can work with you to create custom solutions that address your unique challenges.
@@ -188,7 +188,7 @@ export default function ToolsPage() {
       {/* How We Build Our Tools */}
       <section className="py-16 bg-gray-50 dark:bg-gray-800">
         <div className="container-custom">
-          <h2 className="heading-lg mb-12 text-center">How We Build Our Tools</h2>
+          <h2 className="heading-lg mb-12 text-center text-gray-900 dark:text-white">How We Build Our Tools</h2>
           <div className="grid md:grid-cols-4 gap-8">
             <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-sm">
               <div className="text-skynex-blue dark:text-skynex-accent text-center mb-4">
@@ -198,7 +198,7 @@ export default function ToolsPage() {
                   </svg>
                 </div>
               </div>
-              <h3 className="text-lg font-bold mb-2 text-center">Research</h3>
+              <h3 className="text-lg font-bold mb-2 text-center text-gray-900 dark:text-white">Research</h3>
               <p className="text-gray-600 dark:text-gray-300 text-center">
                 We begin with deep market research and problem identification to ensure our tools address real needs.
               </p>
@@ -211,7 +211,7 @@ export default function ToolsPage() {
                   </svg>
                 </div>
               </div>
-              <h3 className="text-lg font-bold mb-2 text-center">Design</h3>
+              <h3 className="text-lg font-bold mb-2 text-center text-gray-900 dark:text-white">Design</h3>
               <p className="text-gray-600 dark:text-gray-300 text-center">
                 Our UX experts design intuitive, accessible interfaces that make complex data easy to understand.
               </p>
@@ -224,7 +224,7 @@ export default function ToolsPage() {
                   </svg>
                 </div>
               </div>
-              <h3 className="text-lg font-bold mb-2 text-center">Development</h3>
+              <h3 className="text-lg font-bold mb-2 text-center text-gray-900 dark:text-white">Development</h3>
               <p className="text-gray-600 dark:text-gray-300 text-center">
                 Our engineers build robust, scalable solutions using modern technology stacks and best practices.
               </p>
@@ -238,7 +238,7 @@ export default function ToolsPage() {
                   </svg>
                 </div>
               </div>
-              <h3 className="text-lg font-bold mb-2 text-center">Refinement</h3>
+              <h3 className="text-lg font-bold mb-2 text-center text-gray-900 dark:text-white">Refinement</h3>
               <p className="text-gray-600 dark:text-gray-300 text-center">
                 We continuously gather feedback and improve our tools to ensure they deliver maximum value.
               </p>
@@ -250,7 +250,7 @@ export default function ToolsPage() {
       {/* Testimonials - For future use */}
       <section className="py-16 bg-white dark:bg-gray-900">
         <div className="container-custom">
-          <h2 className="heading-lg mb-12 text-center">What Our Users Say</h2>
+          <h2 className="heading-lg mb-12 text-center text-gray-900 dark:text-white">What Our Users Say</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
               <p className="italic text-gray-600 dark:text-gray-300 mb-6">
@@ -258,8 +258,8 @@ export default function ToolsPage() {
                 accurate, and provides insights that help us make better investment decisions."
               </p>
               <div>
-                <h4 className="font-bold">Financial Analyst</h4>
-                <p className="text-sm text-gray-500">Investment Firm</p>
+                <h4 className="font-bold text-gray-800 dark:text-white">Financial Analyst</h4>
+                <p className="text-sm text-gray-500 dark:text-gray-400">Investment Firm</p>
               </div>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
@@ -268,8 +268,8 @@ export default function ToolsPage() {
                 The data is comprehensive, but presented in a way that's easy to understand and actionable."
               </p>
               <div>
-                <h4 className="font-bold">E-Commerce Manager</h4>
-                <p className="text-sm text-gray-500">Retail Company</p>
+                <h4 className="font-bold text-gray-800 dark:text-white">E-Commerce Manager</h4>
+                <p className="text-sm text-gray-500 dark:text-gray-400">Retail Company</p>
               </div>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
@@ -278,8 +278,8 @@ export default function ToolsPage() {
                 If it's anything like their other tools, it will be a game-changer for our market research."
               </p>
               <div>
-                <h4 className="font-bold">Marketing Director</h4>
-                <p className="text-sm text-gray-500">Tech Startup</p>
+                <h4 className="font-bold text-gray-800 dark:text-white">Marketing Director</h4>
+                <p className="text-sm text-gray-500 dark:text-gray-400">Tech Startup</p>
               </div>
             </div>
           </div>

@@ -52,7 +52,7 @@ export default function AboutPage() {
       {/* Company Background */}
       <section className="py-16 bg-gray-50 dark:bg-gray-800">
         <div className="container-custom">
-          <h2 className="heading-lg mb-8 text-center">Our Story</h2>
+          <h2 className="heading-lg mb-8 text-center text-gray-900 dark:text-white">Our Story</h2>
           <div className="max-w-4xl mx-auto">
             <div className="prose prose-lg dark:prose-invert mx-auto">
               <p className="mb-6">
@@ -74,7 +74,7 @@ export default function AboutPage() {
       {/* Values */}
       <section className="py-16 bg-white dark:bg-gray-900">
         <div className="container-custom">
-          <h2 className="heading-lg mb-12 text-center">Our Values</h2>
+          <h2 className="heading-lg mb-12 text-center text-gray-900 dark:text-white">Our Values</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-lg">
               <div className="text-skynex-blue dark:text-skynex-accent mb-4">
@@ -82,7 +82,7 @@ export default function AboutPage() {
                   <path fillRule="evenodd" d="M6.672 1.911a1 1 0 10-1.932.518l.259.966a1 1 0 001.932-.518l-.26-.966zM2.429 4.74a1 1 0 10-.517 1.932l.966.259a1 1 0 00.517-1.932l-.966-.26zm8.814-.569a1 1 0 00-1.415-1.414l-.707.707a1 1 0 101.415 1.415l.707-.708zm-7.071 7.072l.707-.707A1 1 0 003.465 9.12l-.708.707a1 1 0 001.415 1.415zm3.2-5.171a1 1 0 00-1.3 1.3l4 10a1 1 0 001.823.075l1.38-2.759 3.018 3.02a1 1 0 001.414-1.415l-3.019-3.02 2.76-1.379a1 1 0 00-.076-1.822l-10-4z" clipRule="evenodd" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">Innovation</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">Innovation</h3>
               <p className="text-gray-600 dark:text-gray-300">
                 We constantly push boundaries to create solutions that harness the latest technological advancements 
                 in ways that deliver practical value.
@@ -94,7 +94,7 @@ export default function AboutPage() {
                   <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">Collaboration</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">Collaboration</h3>
               <p className="text-gray-600 dark:text-gray-300">
                 We believe in the power of working together - both within our team and with our clients - 
                 to achieve exceptional results that exceed expectations.
@@ -106,7 +106,7 @@ export default function AboutPage() {
                   <path fillRule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clipRule="evenodd" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold mb-3">Reliability</h3>
+              <h3 className="text-xl font-bold mb-3 text-gray-900 dark:text-white">Reliability</h3>
               <p className="text-gray-600 dark:text-gray-300">
                 We build tools and solutions you can count on, with a commitment to accuracy, 
                 security, and consistent performance that earns your trust.
@@ -119,7 +119,7 @@ export default function AboutPage() {
       {/* Team Section */}
       <section className="py-16 bg-gray-50 dark:bg-gray-800">
         <div className="container-custom">
-          <h2 className="heading-lg mb-12 text-center">Our Team & Partners</h2>
+          <h2 className="heading-lg mb-12 text-center text-gray-900 dark:text-white">Our Team & Partners</h2>
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-sm">
               <div className="aspect-w-1 aspect-h-1 bg-gray-200 dark:bg-gray-700 overflow-hidden">
@@ -130,7 +130,7 @@ export default function AboutPage() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-1">Founder & CEO</h3>
+                <h3 className="text-xl font-bold mb-1 text-gray-900 dark:text-white">Founder & CEO</h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">Data Scientist & Business Strategist</p>
                 <p className="text-gray-600 dark:text-gray-300">
                   With expertise in data analysis and business intelligence, our founder brings years of experience 
@@ -147,7 +147,7 @@ export default function AboutPage() {
                 />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-1">Strategic Partners</h3>
+                <h3 className="text-xl font-bold mb-1 text-gray-900 dark:text-white">Strategic Partners</h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">E-Commerce & Technology Experts</p>
                 <p className="text-gray-600 dark:text-gray-300">
                   We collaborate with industry-leading experts and businesses to ensure our tools and solutions 
@@ -163,10 +163,10 @@ export default function AboutPage() {
       {/* Locations */}
       <section className="py-16 bg-white dark:bg-gray-900">
         <div className="container-custom">
-          <h2 className="heading-lg mb-12 text-center">Our Locations</h2>
+          <h2 className="heading-lg mb-12 text-center text-gray-900 dark:text-white">Our Locations</h2>
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-lg">
-              <h3 className="text-xl font-bold mb-4">New York City</h3>
+              <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">New York City</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
                 Our East Coast operations center, connecting us to the global financial hub and tech ecosystem.
               </p>
@@ -181,7 +181,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="bg-gray-50 dark:bg-gray-800 p-8 rounded-lg">
-              <h3 className="text-xl font-bold mb-4">Metro Vancouver</h3>
+              <h3 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Metro Vancouver</h3>
               <p className="text-gray-600 dark:text-gray-300 mb-4">
                 Our West Coast headquarters, nestled in the vibrant tech community of British Columbia.
               </p>

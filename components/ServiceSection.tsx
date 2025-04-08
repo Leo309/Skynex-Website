@@ -5,7 +5,7 @@ export default function ServiceSection() {
     <section className="py-16 bg-white dark:bg-gray-900">
       <div className="container-custom">
         <div className="text-center mb-12">
-          <h2 className="heading-lg mb-4">Our Solutions</h2>
+          <h2 className="heading-lg mb-4 text-gray-900 dark:text-white">Our Solutions</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Powerful tools and platforms that transform complex data into clear, 
             actionable insights for businesses of all sizes.

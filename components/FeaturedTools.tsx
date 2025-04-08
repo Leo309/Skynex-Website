@@ -6,7 +6,7 @@ export default function FeaturedTools() {
     <section className="py-16 bg-gray-50 dark:bg-gray-800">
       <div className="container-custom">
         <div className="text-center mb-12">
-          <h2 className="heading-lg mb-4">Our Digital Tools</h2>
+          <h2 className="heading-lg mb-4 text-gray-900 dark:text-white">Our Digital Tools</h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
             Data-powered solutions designed to enhance decision-making and help your 
             business thrive in today's competitive environment.
@@ -23,7 +23,7 @@ export default function FeaturedTools() {
                     <path fillRule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd"></path>
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold">Inflation Impact Calculator</h3>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white">Inflation Impact Calculator</h3>
               </div>
               <div className="mb-4 h-40 overflow-hidden rounded-lg">
                 <img 
@@ -79,7 +79,7 @@ export default function FeaturedTools() {
                     <path d="M10 3.5a1.5 1.5 0 013 0V4a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-.5a1.5 1.5 0 000 3h.5a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-.5a1.5 1.5 0 00-3 0v.5a1 1 0 01-1 1H6a1 1 0 01-1-1v-3a1 1 0 00-1-1h-.5a1.5 1.5 0 010-3H4a1 1 0 001-1V6a1 1 0 011-1h3a1 1 0 001-1v-.5z"></path>
                   </svg>
                 </div>
-                <h3 className="text-xl font-bold">Financial Analytics Tools</h3>
+                <h3 className="text-xl font-bold text-gray-900 dark:text-white">Financial Analytics Tools</h3>
                 <span className="ml-3 bg-gradient-to-r from-purple-600 to-blue-500 text-white text-xs py-1 px-2 rounded-full">Coming Soon</span>
               </div>
               <div className="mb-4 h-40 overflow-hidden rounded-lg">

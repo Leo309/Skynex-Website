@@ -27,114 +27,122 @@ export default function PrivacyPolicyPage() {
           <div className="max-w-4xl mx-auto">
             <div className="prose prose-lg dark:prose-invert">
               <p>
-                <strong>Last Updated: April 2, 2025</strong>
+                <strong>Last Updated: April 7, 2025</strong>
               </p>
               
+              <h2>Introduction</h2>
               <p>
-                This Privacy Policy describes how SKYNEX GLOBAL COMMERCE & TECH INC. ("we," "us," or "our") 
-                collects, uses, and shares information when you use our website skynexdigital.com and any 
-                related services (collectively, the "Services").
+                SKYNEX GLOBAL COMMERCE & TECH INC. ("SKYNEX," "we," "our," or "us") respects your privacy and is committed to protecting your personal data. This Privacy Policy will inform you about how we look after your personal data when you visit our website at skynexdigital.com (regardless of where you visit it from) or use any of our services, and tell you about your privacy rights and how the law protects you.
               </p>
               
-              <h2>Information We Collect</h2>
+              <h2>1. Important Information and Who We Are</h2>
               <p>
-                We may collect the following types of information when you use our Services:
+                <strong>Purpose of This Privacy Policy</strong><br />
+                This Privacy Policy aims to give you information on how SKYNEX collects and processes your personal data through your use of this website and our services, including any data you may provide when you sign up for our newsletter, purchase a product or service, or take part in a survey.
+              </p>
+              <p>
+                <strong>Controller</strong><br />
+                SKYNEX GLOBAL COMMERCE & TECH INC. is the controller and responsible for your personal data. If you have any questions about this Privacy Policy, including any requests to exercise your legal rights, please contact us at info@skynexdigital.com.
               </p>
               
+              <h2>2. The Data We Collect About You</h2>
+              <p>
+                Personal data, or personal information, means any information about an individual from which that person can be identified. It does not include data where the identity has been removed (anonymous data).
+              </p>
+              <p>
+                We may collect, use, store and transfer different kinds of personal data about you which we have grouped together as follows:
+              </p>
+              <ul>
+                <li><strong>Identity Data</strong> includes first name, last name, username or similar identifier.</li>
+                <li><strong>Contact Data</strong> includes email address, telephone numbers, and postal address.</li>
+                <li><strong>Technical Data</strong> includes internet protocol (IP) address, your login data, browser type and version, time zone setting and location, browser plug-in types and versions, operating system and platform, and other technology on the devices you use to access this website.</li>
+                <li><strong>Usage Data</strong> includes information about how you use our website, products, and services.</li>
+                <li><strong>Marketing and Communications Data</strong> includes your preferences in receiving marketing from us and our third parties and your communication preferences.</li>
+              </ul>
+              
+              <h2>3. How We Collect Your Personal Data</h2>
+              <p>We use different methods to collect data from and about you including through:</p>
               <ul>
                 <li>
-                  <strong>Personal Information:</strong> When you contact us, register for an account, 
-                  or use certain features, we may collect information such as your name, email address, 
-                  phone number, company name, and any other information you provide.
+                  <strong>Direct interactions.</strong> You may give us your Identity and Contact Data by filling in forms or by corresponding with us by post, phone, email or otherwise.
                 </li>
                 <li>
-                  <strong>Usage Information:</strong> We automatically collect information about how you 
-                  interact with our Services, including your IP address, browser type, pages viewed, 
-                  time spent on pages, links clicked, and other browsing information.
+                  <strong>Automated technologies or interactions.</strong> As you interact with our website, we may automatically collect Technical Data about your equipment, browsing actions and patterns.
                 </li>
                 <li>
-                  <strong>Cookies and Similar Technologies:</strong> We use cookies, web beacons, and similar 
-                  technologies to enhance your experience, analyze usage, and improve functionality.
+                  <strong>Third parties or publicly available sources.</strong> We may receive personal data about you from various third parties and public sources as set out below:
+                  <ul>
+                    <li>Technical Data from analytics providers such as Google;</li>
+                    <li>Contact, Financial and Transaction Data from providers of technical, payment and delivery services.</li>
+                  </ul>
                 </li>
               </ul>
               
-              <h2>How We Use Your Information</h2>
+              <h2>4. How We Use Your Personal Data</h2>
               <p>
-                We may use the information we collect for various purposes, including:
+                We will only use your personal data when the law allows us to. Most commonly, we will use your personal data in the following circumstances:
               </p>
-              
               <ul>
-                <li>Providing, maintaining, and improving our Services</li>
-                <li>Responding to your requests, comments, or questions</li>
-                <li>Sending you technical notices, updates, security alerts, and support messages</li>
-                <li>Personalizing your experience with our Services</li>
-                <li>Analyzing usage patterns to improve our Services</li>
-                <li>Protecting against fraudulent, unauthorized, or illegal activity</li>
+                <li>Where we need to perform the contract we are about to enter into or have entered into with you.</li>
+                <li>Where it is necessary for our legitimate interests (or those of a third party) and your interests and fundamental rights do not override those interests.</li>
+                <li>Where we need to comply with a legal obligation.</li>
+              </ul>
+              <p>
+                We may use your personal data for the following purposes:
+              </p>
+              <ul>
+                <li>To register you as a new customer</li>
+                <li>To process and deliver your order</li>
+                <li>To manage our relationship with you</li>
+                <li>To improve our website, products/services, marketing and customer relationships</li>
+                <li>To recommend products or services that may be of interest to you</li>
               </ul>
               
-              <h2>Sharing of Information</h2>
+              <h2>5. Data Security</h2>
               <p>
-                We may share your information in the following circumstances:
+                We have put in place appropriate security measures to prevent your personal data from being accidentally lost, used or accessed in an unauthorized way, altered or disclosed. In addition, we limit access to your personal data to those employees, agents, contractors and other third parties who have a business need to know.
               </p>
               
+              <h2>6. Data Retention</h2>
+              <p>
+                We will only retain your personal data for as long as necessary to fulfill the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements.
+              </p>
+              
+              <h2>7. Your Legal Rights</h2>
+              <p>
+                Under certain circumstances, you have rights under data protection laws in relation to your personal data, including the right to:
+              </p>
               <ul>
-                <li>With service providers who perform services on our behalf</li>
-                <li>To comply with applicable laws, regulations, or legal processes</li>
-                <li>To protect the rights, property, or safety of our users or others</li>
-                <li>In connection with a business transaction, such as a merger, acquisition, or sale of assets</li>
+                <li>Request access to your personal data</li>
+                <li>Request correction of your personal data</li>
+                <li>Request erasure of your personal data</li>
+                <li>Object to processing of your personal data</li>
+                <li>Request restriction of processing your personal data</li>
+                <li>Request transfer of your personal data</li>
+                <li>Right to withdraw consent</li>
               </ul>
-              
-              <h2>Your Rights and Choices</h2>
               <p>
-                Depending on your location, you may have certain rights regarding your personal information. 
-                These may include:
+                If you wish to exercise any of these rights, please contact us at info@skynexdigital.com.
               </p>
               
-              <ul>
-                <li>Accessing, correcting, or deleting your personal information</li>
-                <li>Restricting or objecting to our use of your information</li>
-                <li>Requesting that we provide your information in a portable format</li>
-                <li>Withdrawing consent where we rely on consent to process your information</li>
-              </ul>
-              
+              <h2>8. International Transfers</h2>
               <p>
-                To exercise these rights, please contact us using the information provided in the "Contact Us" section below.
+                We may share your personal data within our group of companies and with external third parties, which may involve transferring your data outside your country. Whenever we transfer your personal data internationally, we ensure a similar degree of protection is afforded to it.
               </p>
               
-              <h2>Security</h2>
+              <h2>9. Changes to This Privacy Policy</h2>
               <p>
-                We implement reasonable security measures to protect your information from unauthorized 
-                access, disclosure, or destruction. However, no method of transmission over the internet 
-                or electronic storage is completely secure, so we cannot guarantee absolute security.
+                We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date at the top of this Privacy Policy.
               </p>
               
-              <h2>Children's Privacy</h2>
+              <h2>10. Contact Us</h2>
               <p>
-                Our Services are not directed to children under the age of 13, and we do not knowingly 
-                collect personal information from children under 13. If we learn that we have collected 
-                personal information from a child under 13, we will promptly delete it.
-              </p>
-              
-              <h2>Changes to This Privacy Policy</h2>
-              <p>
-                We may update this Privacy Policy from time to time to reflect changes in our practices 
-                or for other operational, legal, or regulatory reasons. We will notify you of any material 
-                changes by posting the updated Privacy Policy on this page with a new "Last Updated" date.
-              </p>
-              
-              <h2>Contact Us</h2>
-              <p>
-                If you have any questions or concerns about this Privacy Policy or our privacy practices, 
-                please contact us at:
+                If you have any questions about this Privacy Policy or our privacy practices, please contact us at:
               </p>
               
               <p>
                 SKYNEX GLOBAL COMMERCE & TECH INC.<br />
-                Email: privacy@skynexdigital.com
-              </p>
-              
-              <p>
-                This website is owned by SKYNEX GLOBAL COMMERCE & TECH INC., registered in British Columbia, Canada.
+                Email: info@skynexdigital.com
               </p>
             </div>
           </div>
