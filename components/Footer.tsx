@@ -28,7 +28,7 @@ export default function Footer() {
             </div>
             <p className="mb-4 text-gray-300">
               SKYNEX DIGITAL<br />
-              Building data-driven, AI-powered tools to enhance financial, e-commerce, and business solutions globally as SaaS.
+              Building data-driven, AI-powered products to enhance financial, e-commerce, and business solutions globally as SaaS.
             </p>
             <div className="flex space-x-4">
               <a href="https://www.linkedin.com/company/skynex-digital" className="text-gray-400 hover:text-white transition-colors duration-300">

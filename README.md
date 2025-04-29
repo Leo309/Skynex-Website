@@ -1,10 +1,10 @@
 # SKYNEX GLOBAL COMMERCE & TECH INC. Official Website
 
-This is the official open-source website for SKYNEX GLOBAL COMMERCE & TECH INC., a technology company based in British Columbia, Canada with presence in New York City and Vancouver.
+This is the official website for SKYNEX GLOBAL COMMERCE & TECH INC., a technology company based in British Columbia, Canada with presence in New York City and Vancouver.
 
 ## About SKYNEX
 
-SKYNEX specializes in e-commerce solutions and AI-powered tools that help businesses make better decisions and stay competitive in the digital marketplace.
+SKYNEX specializes in e-commerce solutions and AI-powered products that help businesses make better decisions and stay competitive in the digital marketplace.
 
 ## Website Features
 
@@ -17,10 +17,10 @@ SKYNEX specializes in e-commerce solutions and AI-powered tools that help busine
 - Contact form for inquiries
 - Comprehensive company and service information
 
-## Our Tools
+## Our Products
 
 - **Inflation Calculator**: A tool for understanding the impact of inflation on purchasing power over time. Available at [inflation.skynexdigital.com](https://inflation.skynexdigital.com)
-- More tools coming soon!
+- More products coming soon!
 
 ## Local Development
 
@@ -28,10 +28,10 @@ To get started with local development:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Skynex-Website.git
+git clone [your-repository-url]
 
 # Navigate to the project directory
-cd Skynex-Website
+cd skynex-website
 
 # Install dependencies
 npm install
@@ -67,10 +67,11 @@ The project follows a feature-based structure with App Router:
 
 For more details on the codebase organization and standards, refer to our internal CODE_STANDARDS documentation.
 
-## License
+## Deployment
 
-This project is open-source and available under the MIT License.
+This website is optimized for deployment on Vercel. Simply connect your repository to Vercel for automatic deployments on every push to the main branch.
 
 ## Contact
 
-For inquiries about this website or our services, please contact us at info@skynexdigital.com.
+For inquiries about this website or our services, please contact us at hello@skynexdigital.com.
+
