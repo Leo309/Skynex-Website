@@ -2,11 +2,11 @@ import React from 'react';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'AI-Powered Tools | SKYNEX GLOBAL COMMERCE & TECH INC.',
-  description: 'Explore our suite of data-driven, AI-powered SaaS tools for financial analytics, business intelligence, and decision support.',
+  title: 'AI-Powered Products | SKYNEX GLOBAL COMMERCE & TECH INC.',
+  description: 'Explore our suite of data-driven, AI-powered SaaS products for financial analytics, business intelligence, and decision support.',
 };
 
-export default function ToolsPage() {
+export default function ProductsPage() {
   return (
     <div className="bg-gradient-to-b from-skynex-light to-gray-100 dark:from-skynex-dark dark:to-gray-900">
       {/* Hero Section */}
@@ -14,7 +14,7 @@ export default function ToolsPage() {
         <div className="absolute inset-0 bg-grid-pattern opacity-20"></div>
         <div className="container-custom relative z-10">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="heading-xl mb-6">Digital Tools</h1>
+            <h1 className="heading-xl mb-6">Digital Products</h1>
             <p className="text-xl text-gray-300">
               Powerful, data-driven solutions that help you make better business decisions.
             </p>
@@ -26,7 +26,7 @@ export default function ToolsPage() {
       <section className="py-16 bg-white dark:bg-gray-900">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto">
-            <h2 className="heading-lg mb-12 text-center text-gray-900 dark:text-white">Our Tools</h2>
+            <h2 className="heading-lg mb-12 text-center text-gray-900 dark:text-white">Our Products</h2>
             
             {/* Inflation Calculator */}
             <div className="mb-16 bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden">
@@ -188,7 +188,7 @@ export default function ToolsPage() {
       {/* How We Build Our Tools */}
       <section className="py-16 bg-gray-50 dark:bg-gray-800">
         <div className="container-custom">
-          <h2 className="heading-lg mb-12 text-center text-gray-900 dark:text-white">How We Build Our Tools</h2>
+          <h2 className="heading-lg mb-12 text-center text-gray-900 dark:text-white">How We Build Our Products</h2>
           <div className="grid md:grid-cols-4 gap-8">
             <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-sm">
               <div className="text-skynex-blue dark:text-skynex-accent text-center mb-4">
@@ -290,9 +290,9 @@ export default function ToolsPage() {
       <section className="py-16 bg-gradient-to-br from-skynex-blue to-blue-700 text-white">
         <div className="container-custom">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="heading-lg mb-6">Ready to Experience Our Tools?</h2>
+            <h2 className="heading-lg mb-6">Ready to Experience Our Products?</h2>
             <p className="text-lg mb-8 text-blue-100">
-              Whether you're looking to use our tools or discuss custom solutions for your business, 
+              Whether you're looking to use our products or discuss custom solutions for your business, 
               we're here to help you leverage data and technology for better decision-making.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

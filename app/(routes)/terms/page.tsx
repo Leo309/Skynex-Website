@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const metadata = {
-  title: 'Terms of Service | SKYNEX GLOBAL COMMERCE & TECH INC.',
-  description: 'Terms of Service for SKYNEX GLOBAL COMMERCE & TECH INC. Please read these terms before using our website and services.',
+  title: 'Terms of Service | SKYNEX DIGITAL',
+  description: 'Terms of Service for SKYNEX DIGITAL. Please read these terms before using our website and services.',
 };
 
 export default function TermsOfServicePage() {
@@ -32,7 +32,7 @@ export default function TermsOfServicePage() {
               
               <h2>1. Introduction</h2>
               <p>
-                Welcome to SKYNEX GLOBAL COMMERCE & TECH INC. ("SKYNEX," "we," "us," or "our"). These Terms of Service ("Terms") govern your access to and use of our website, products, and services (collectively, the "Services"). By accessing or using our Services, you agree to be bound by these Terms and our Privacy Policy. If you do not agree to these Terms, please do not use our Services.
+                Welcome to <strong>SKYNEX DIGITAL</strong>. These Terms of Service ("Terms") constitute a legally binding agreement made between you, whether personally or on behalf of an entity ('you') and <strong>SKYNEX GLOBAL COMMERCE & TECH INC.</strong> (operating under the brand name 'SKYNEX DIGITAL'), concerning your access to and use of the skynexdigital.com website as well as any related applications (collectively, the "Services"). By accessing or using our Services, you agree to be bound by these Terms and our Privacy Policy. If you do not agree to these Terms, please do not use our Services.
               </p>
               
               <h2>2. Eligibility</h2>
@@ -62,7 +62,7 @@ export default function TermsOfServicePage() {
               
               <h2>5. Intellectual Property Rights</h2>
               <p>
-                The Services and their entire contents, features, and functionality (including but not limited to software, text, images, graphics, videos, and audio) are owned by SKYNEX, its licensors, or other providers and are protected by copyright, trademark, patent, and other intellectual property or proprietary rights laws.
+                The Services and their entire contents, features, and functionality (including but not limited to software, text, images, graphics, videos, and audio) are owned by <strong>SKYNEX GLOBAL COMMERCE & TECH INC.</strong>, its licensors, or other providers and are protected by copyright, trademark, patent, and other intellectual property or proprietary rights laws.
               </p>
               <p>
                 These Terms do not grant you any right, title, or interest in the Services or any content, features, or functionality of the Services. You may not copy, modify, create derivative works of, publicly display, publicly perform, republish, or transmit any of the material on our Services without our prior written consent.
@@ -93,12 +93,12 @@ export default function TermsOfServicePage() {
               
               <h2>10. Limitation of Liability</h2>
               <p>
-                TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT WILL SKYNEX, ITS AFFILIATES, OR THEIR LICENSORS, SERVICE PROVIDERS, EMPLOYEES, AGENTS, OFFICERS, OR DIRECTORS BE LIABLE FOR DAMAGES OF ANY KIND, UNDER ANY LEGAL THEORY, ARISING OUT OF OR IN CONNECTION WITH YOUR USE, OR INABILITY TO USE, THE SERVICES, INCLUDING ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES.
+                TO THE FULLEST EXTENT PERMITTED BY LAW, IN NO EVENT WILL <strong>SKYNEX GLOBAL COMMERCE & TECH INC.</strong> (operating as SKYNEX DIGITAL), ITS AFFILIATES, OR THEIR LICENSORS, SERVICE PROVIDERS, EMPLOYEES, AGENTS, OFFICERS, OR DIRECTORS BE LIABLE FOR DAMAGES OF ANY KIND, UNDER ANY LEGAL THEORY, ARISING OUT OF OR IN CONNECTION WITH YOUR USE, OR INABILITY TO USE, THE SERVICES, INCLUDING ANY DIRECT, INDIRECT, SPECIAL, INCIDENTAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES.
               </p>
               
               <h2>11. Indemnification</h2>
               <p>
-                You agree to defend, indemnify, and hold harmless SKYNEX, its affiliates, licensors, and service providers, and its and their respective officers, directors, employees, contractors, agents, licensors, suppliers, successors, and assigns from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising out of or relating to your violation of these Terms or your use of the Services.
+                You agree to defend, indemnify, and hold harmless <strong>SKYNEX GLOBAL COMMERCE & TECH INC.</strong> (operating as SKYNEX DIGITAL), its affiliates, licensors, and service providers, and its and their respective officers, directors, employees, contractors, agents, licensors, suppliers, successors, and assigns from and against any claims, liabilities, damages, judgments, awards, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising out of or relating to your violation of these Terms or your use of the Services.
               </p>
               
               <h2>12. Governing Law and Jurisdiction</h2>
@@ -122,7 +122,7 @@ export default function TermsOfServicePage() {
               </p>
               
               <p>
-                SKYNEX GLOBAL COMMERCE & TECH INC.<br />
+                <strong>SKYNEX GLOBAL COMMERCE & TECH INC.</strong><br />
                 Email: info@skynexdigital.com
               </p>
             </div>

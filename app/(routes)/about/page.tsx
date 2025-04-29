@@ -116,49 +116,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="py-16 bg-gray-50 dark:bg-gray-800">
-        <div className="container-custom">
-          <h2 className="heading-lg mb-12 text-center text-gray-900 dark:text-white">Our Team & Partners</h2>
-          <div className="grid md:grid-cols-2 gap-12">
-            <div className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-sm">
-              <div className="aspect-w-1 aspect-h-1 bg-gray-200 dark:bg-gray-700 overflow-hidden">
-                <img 
-                  src="/images/team/Founder.png" 
-                  alt="Founder & CEO" 
-                  className="w-full h-64 object-contain"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-1 text-gray-900 dark:text-white">Founder & CEO</h3>
-                <p className="text-gray-600 dark:text-gray-400 mb-4">Data Scientist & Business Strategist</p>
-                <p className="text-gray-600 dark:text-gray-300">
-                  With expertise in data analysis and business intelligence, our founder brings years of experience 
-                  working with complex datasets and developing practical solutions for real-world business challenges.
-                </p>
-              </div>
-            </div>
-            <div className="bg-white dark:bg-gray-900 rounded-lg overflow-hidden shadow-sm">
-              <div className="aspect-w-1 aspect-h-1 bg-gray-200 dark:bg-gray-700 overflow-hidden">
-                <img 
-                  src="/images/team/E-commerce partner.png" 
-                  alt="E-Commerce Partners" 
-                  className="w-full h-64 object-contain"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-bold mb-1 text-gray-900 dark:text-white">Strategic Partners</h3>
-                <p className="text-gray-600 dark:text-gray-400 mb-4">E-Commerce & Technology Experts</p>
-                <p className="text-gray-600 dark:text-gray-300">
-                  We collaborate with industry-leading experts and businesses to ensure our tools and solutions 
-                  address the real needs of the market. Our NYC-based e-commerce partner brings invaluable 
-                  market insights and operational expertise to our product development.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* Locations */}
       <section className="py-16 bg-white dark:bg-gray-900">

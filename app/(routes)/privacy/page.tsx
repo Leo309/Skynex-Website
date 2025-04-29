@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const metadata = {
-  title: 'Privacy Policy | SKYNEX GLOBAL COMMERCE & TECH INC.',
-  description: 'Privacy Policy for SKYNEX GLOBAL COMMERCE & TECH INC. Learn how we collect, use, and protect your information.',
+  title: 'Privacy Policy | SKYNEX DIGITAL',
+  description: 'Privacy Policy for SKYNEX DIGITAL. Learn how we collect, use, and protect your information.',
 };
 
 export default function PrivacyPolicyPage() {
@@ -32,7 +32,7 @@ export default function PrivacyPolicyPage() {
               
               <h2>Introduction</h2>
               <p>
-                SKYNEX GLOBAL COMMERCE & TECH INC. ("SKYNEX," "we," "our," or "us") respects your privacy and is committed to protecting your personal data. This Privacy Policy will inform you about how we look after your personal data when you visit our website at skynexdigital.com (regardless of where you visit it from) or use any of our services, and tell you about your privacy rights and how the law protects you.
+                <strong>SKYNEX GLOBAL COMMERCE & TECH INC.</strong> (operating as SKYNEX DIGITAL) ("we," "our," or "us") respects your privacy and is committed to protecting your personal data. This Privacy Policy will inform you about how we look after your personal data when you visit our website at skynexdigital.com (regardless of where you visit it from) or use any of our services, and tell you about your privacy rights and how the law protects you.
               </p>
               
               <h2>1. Important Information and Who We Are</h2>
@@ -42,7 +42,7 @@ export default function PrivacyPolicyPage() {
               </p>
               <p>
                 <strong>Controller</strong><br />
-                SKYNEX GLOBAL COMMERCE & TECH INC. is the controller and responsible for your personal data. If you have any questions about this Privacy Policy, including any requests to exercise your legal rights, please contact us at info@skynexdigital.com.
+                <strong>SKYNEX GLOBAL COMMERCE & TECH INC.</strong>, the operator of the SKYNEX DIGITAL brand and website, is the data controller responsible for your personal data. If you have any questions about this Privacy Policy, including any requests to exercise your legal rights, please contact us at info@skynexdigital.com.
               </p>
               
               <h2>2. The Data We Collect About You</h2>
@@ -141,7 +141,7 @@ export default function PrivacyPolicyPage() {
               </p>
               
               <p>
-                SKYNEX GLOBAL COMMERCE & TECH INC.<br />
+                <strong>SKYNEX GLOBAL COMMERCE & TECH INC.</strong><br />
                 Email: info@skynexdigital.com
               </p>
             </div>

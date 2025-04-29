@@ -7,7 +7,7 @@ export default function OrganizationSchema() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'Organization',
-    name: 'SKYNEX GLOBAL COMMERCE & TECH INC.',
+    name: 'SKYNEX DIGITAL',
     url: 'https://skynexdigital.com',
     logo: 'https://skynexdigital.com/logo.png',
     sameAs: [
@@ -29,7 +29,7 @@ export default function OrganizationSchema() {
       postalCode: 'V5H 0H4',
       addressCountry: 'CA'
     },
-    description: 'SKYNEX GLOBAL COMMERCE & TECH INC. specializes in e-commerce solutions and AI-powered tools that help businesses make better decisions and stay competitive in the digital marketplace.'
+    description: 'SKYNEX DIGITAL specializes in e-commerce solutions and AI-powered tools that help businesses make better decisions and stay competitive in the digital marketplace.'
   };
 
   return (

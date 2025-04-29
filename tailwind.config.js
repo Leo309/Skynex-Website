@@ -22,6 +22,22 @@ module.exports = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'grid-pattern': "url('/grid-pattern.svg')",
       },
+      animation: {
+        'spin-slow': 'spin 8s linear infinite',
+        'spin-reverse': 'spin-reverse 12s linear infinite',
+        'float': 'float 6s ease-in-out infinite',
+        'float-delayed': 'float 8s ease-in-out infinite 2s',
+      },
+      keyframes: {
+        'spin-reverse': {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(-360deg)' },
+        },
+        'float': {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(-20px)' },
+        },
+      },
     },
   },
   plugins: [],

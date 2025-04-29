@@ -154,9 +154,9 @@ export default function ContactForm() {
         >
           <option value="">Select a subject</option>
           <option value="general">General Inquiry</option>
+          <option value="feedback">Product Feedback</option>
           <option value="support">Technical Support</option>
-          <option value="sales">Sales & Pricing</option>
-          <option value="partnership">Partnership Opportunities</option>
+          <option value="sales">Sales Inquiry</option>
         </select>
       </div>
       <div>

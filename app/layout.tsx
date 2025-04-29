@@ -12,17 +12,17 @@ export const metadata = {
     apple: '/images/SKYNEX_500_BLUE.png',
   },
   title: {
-    template: '%s | SKYNEX GLOBAL COMMERCE & TECH INC.',
-    default: 'SKYNEX GLOBAL COMMERCE & TECH INC.',
+    template: '%s | SKYNEX DIGITAL',
+    default: 'SKYNEX DIGITAL',
   },
   description: 'Innovative e-commerce solutions and AI tools for the digital age.',
   keywords: 'e-commerce, AI tools, digital commerce, inflation calculator, tech company, British Columbia, NYC, Vancouver',
   metadataBase: new URL('https://skynexdigital.com'),
   openGraph: {
-    title: 'SKYNEX GLOBAL COMMERCE & TECH INC.',
+    title: 'SKYNEX DIGITAL',
     description: 'Innovative e-commerce solutions and AI tools for the digital age.',
     url: 'https://skynexdigital.com',
-    siteName: 'SKYNEX GLOBAL',
+    siteName: 'SKYNEX DIGITAL',
     locale: 'en-US',
     type: 'website',
     images: [
@@ -30,13 +30,13 @@ export const metadata = {
         url: 'https://skynexdigital.com/images/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'SKYNEX GLOBAL COMMERCE & TECH INC.',
+        alt: 'SKYNEX DIGITAL',
       }
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'SKYNEX GLOBAL COMMERCE & TECH INC.',
+    title: 'SKYNEX DIGITAL',
     description: 'Innovative e-commerce solutions and AI tools for the digital age.',
     images: ['https://skynexdigital.com/images/twitter-image.jpg'],
   },
@@ -69,7 +69,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.variable}>
       <head>
-        {/* Script to prevent flash of wrong theme */}
+        {/* Script to allow theme switching */}
         <script dangerouslySetInnerHTML={{ __html: `
           (function() {
             try {
