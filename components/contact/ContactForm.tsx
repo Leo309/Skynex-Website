@@ -14,6 +14,7 @@ export default function ContactForm() {
   
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [successMessage, setSuccessMessage] = useState<string>('');
   const [errorMessage, setErrorMessage] = useState<string>('');
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
@@ -43,6 +44,23 @@ export default function ContactForm() {
         throw new Error(result.error || 'Failed to submit form');
       }
       
+      // Provide more specific success message based on subject
+      const subjectToEmail = {
+        general: 'hello@skynexdigital.com',
+        feedback: 'feedback@skynexdigital.com',
+        support: 'support@skynexdigital.com',
+        sales: 'sales@skynexdigital.com',
+      };
+      
+      // Create a more specific success message based on the form subject
+      const subjectDisplay = {
+        general: 'General Inquiry',
+        feedback: 'Product Feedback',
+        support: 'Technical Support',
+        sales: 'Sales Inquiry'
+      }[formData.subject] || 'your message';
+      
+      setSuccessMessage(`Thank you for your ${subjectDisplay.toLowerCase()}! We'll get back to you shortly.`);
       setSubmitStatus('success');
       setFormData({
         firstName: '',
@@ -70,7 +88,7 @@ export default function ContactForm() {
       {submitStatus === 'success' && (
         <div className="bg-green-50 dark:bg-green-900 p-4 rounded-md mb-6">
           <p className="text-green-800 dark:text-green-200">
-            Thank you for your message! We'll get back to you shortly.
+            {successMessage}
           </p>
         </div>
       )}

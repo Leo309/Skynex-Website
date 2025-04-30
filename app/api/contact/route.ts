@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server';
 import { submitContactForm } from '@/lib/supabase/client';
+import { sendContactEmail } from '@/lib/email/resend';
 
 export async function POST(request: Request) {
   try {
@@ -15,6 +16,17 @@ export async function POST(request: Request) {
 
     // Submit form data to Supabase
     await submitContactForm(body);
+    
+    // Send email to appropriate department
+    if (process.env.RESEND_API_KEY) {
+      try {
+        await sendContactEmail(body);
+      } catch (emailError) {
+        console.error('Error sending email:', emailError);
+        // Continue execution - we still want to return success if Supabase saved the data
+        // The data is safely stored in the database even if email fails
+      }
+    }
     
     return NextResponse.json({ success: true });
   } catch (error: any) {
