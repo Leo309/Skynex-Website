@@ -52,15 +52,8 @@ export default function ContactForm() {
         sales: 'sales@skynexdigital.com',
       };
       
-      // Create a more specific success message based on the form subject
-      const subjectDisplay = {
-        general: 'General Inquiry',
-        feedback: 'Product Feedback',
-        support: 'Technical Support',
-        sales: 'Sales Inquiry'
-      }[formData.subject] || 'your message';
-      
-      setSuccessMessage(`Thank you for your ${subjectDisplay.toLowerCase()}! We'll get back to you shortly.`);
+      // Set a consistent success message regardless of subject type
+      setSuccessMessage("Thank you for your message! We'll get back to you shortly.");
       setSubmitStatus('success');
       setFormData({
         firstName: '',
