@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
-import { submitContactForm } from '@/lib/supabase/client';
-import { sendContactEmail } from '@/lib/email/resend';
+import { submitContactForm } from '../../../lib/supabase/client';
+import { sendContactEmail } from '../../../lib/email/resend';
 
 export async function POST(request: Request) {
   try {
