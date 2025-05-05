@@ -254,7 +254,7 @@ export default function ProductsPage() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg">
               <p className="italic text-gray-600 dark:text-gray-300 mb-6">
-                "The Inflation Impact Calculator has become an essential tool for our financial planning. It's intuitive, 
+                "The Real Return Analyzer has become an essential tool for our financial planning. It's intuitive, 
                 accurate, and provides insights that help us make better investment decisions."
               </p>
               <div>
