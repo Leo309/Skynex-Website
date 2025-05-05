@@ -54,7 +54,7 @@ export default function Home() {
                     
                     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[280px] h-[280px] rounded-2xl bg-white/10 backdrop-blur-lg border border-white/20 shadow-xl overflow-hidden flex items-center justify-center">
                       <Image 
-                        src="/images/tools/Inflation Impact Calculator.png"
+                        src="/images/tools/Intelligent_Decisions_Transparent.png"
                         alt="SKYNEX Financial Tools" 
                         width={260} 
                         height={220}
@@ -168,7 +168,7 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-3 group-hover:text-blue-600 dark:group-hover:text-cyan-400 transition-colors duration-300">
-                  Inflation Impact Calculator
+                    Real Return Analyzer
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">
                   Understand how inflation affects your purchasing power over time with precise, 

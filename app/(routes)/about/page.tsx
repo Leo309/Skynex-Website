@@ -2,7 +2,7 @@ import React from 'react';
 
 export const metadata = {
   title: 'About Us | SKYNEX GLOBAL COMMERCE & TECH INC.',
-  description: 'Learn about our mission, vision, and the team behind SKYNEX GLOBAL COMMERCE & TECH INC.',
+  description: 'Learn about our mission, vision, and the team behind SKYNEX Digital.',
 };
 
 export default function AboutPage() {
@@ -56,7 +56,7 @@ export default function AboutPage() {
           <div className="max-w-4xl mx-auto">
             <div className="prose prose-lg dark:prose-invert mx-auto">
               <p className="mb-6">
-              SKYNEX GLOBAL COMMERCE & TECH INC. was founded in British Columbia, Canada with a clear vision: creating technology solutions that transform how businesses operate in the digital space.
+              SKYNEX Digital was founded in British Columbia, Canada with a clear vision: creating technology solutions that transform how businesses operate in the digital space.
               </p>
 
               <p className="mb-6">
@@ -64,7 +64,7 @@ export default function AboutPage() {
               </p>
 
               <p>
-              We launched our Inflation Calculator as the first in a series of practical tools to help businesses make more informed financial decisions. Today, SKYNEX continues to expand our suite of data-driven SaaS solutions, serving clients globally from our offices in New York City and Vancouver.
+              We launched our Real Return Analyzer as the first in a series of practical tools to help businesses make more informed financial decisions. Today, SKYNEX continues to expand our suite of data-driven SaaS solutions, serving clients globally from our offices in New York City and Vancouver.
               </p>
             </div>
           </div>
