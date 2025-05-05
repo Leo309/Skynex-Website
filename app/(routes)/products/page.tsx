@@ -32,7 +32,7 @@ export default function ProductsPage() {
             <div className="mb-16 bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden">
               <div className="md:flex">
                 <div className="md:w-2/5 bg-gradient-to-br from-blue-600 to-skynex-blue p-8 text-white">
-                  <h3 className="text-2xl font-bold mb-4 text-white">Inflation Impact Calculator</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-white">{process.env.NEXT_PUBLIC_REAL_RETURN_ANALYZER_NAME}</h3>
                   <p className="mb-6">
                     Understand the real impact of inflation on your purchasing power with our 
                     comprehensive calculator tool.
@@ -64,7 +64,7 @@ export default function ProductsPage() {
                     </div>
                   </div>
                   <a 
-                    href="https://inflation.skynexdigital.com" 
+                    href={process.env.NEXT_PUBLIC_REAL_RETURN_ANALYZER_URL} 
                     target="_blank" 
                     rel="noopener noreferrer" 
                     className="inline-block bg-white text-skynex-blue hover:bg-blue-50 font-bold py-3 px-6 rounded-md transition-colors"
@@ -76,8 +76,8 @@ export default function ProductsPage() {
                   <div className="aspect-w-16 aspect-h-9 mb-6">
                     <div className="w-full h-64 overflow-hidden rounded-lg">
                       <img 
-                        src="/images/tools/Inflation Impact Calculator.png" 
-                        alt="Inflation Impact Calculator Tool Interface" 
+                        src="/images/tools/Real Return Analyzer.png" 
+                        alt="Real Return Analyzer Tool Interface" 
                         className="w-full h-full object-cover"
                       />
                     </div>
@@ -297,12 +297,12 @@ export default function ProductsPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a 
-                href="https://inflation.skynexdigital.com" 
+                href={process.env.NEXT_PUBLIC_REAL_RETURN_ANALYZER_URL} 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="bg-white text-blue-700 hover:bg-blue-50 font-bold py-3 px-8 rounded-md transition-colors text-lg"
               >
-                Try Inflation Impact Calculator
+                Try {process.env.NEXT_PUBLIC_REAL_RETURN_ANALYZER_NAME}
               </a>
               <Link 
                 href="/contact" 

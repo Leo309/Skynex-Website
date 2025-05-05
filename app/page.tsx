@@ -168,14 +168,14 @@ export default function Home() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-3 group-hover:text-blue-600 dark:group-hover:text-cyan-400 transition-colors duration-300">
-                    Real Return Analyzer
+                    {process.env.NEXT_PUBLIC_REAL_RETURN_ANALYZER_NAME}
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">
                   Understand how inflation affects your purchasing power over time with precise, 
                   data-driven insights and interactive visualizations.
                 </p>
                 <a 
-                  href="https://inflation.skynexdigital.com" 
+                  href={process.env.NEXT_PUBLIC_REAL_RETURN_ANALYZER_URL} 
                   className="inline-block text-blue-600 dark:text-cyan-400 font-medium group-hover:text-skynex-blue dark:group-hover:text-white transition-colors duration-300"
                 >
                   Launch Calculator →
