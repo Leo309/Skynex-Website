@@ -34,8 +34,8 @@ export default function ProductsPage() {
                 <div className="md:w-2/5 bg-gradient-to-br from-blue-600 to-skynex-blue p-8 text-white">
                   <h3 className="text-2xl font-bold mb-4 text-white">{process.env.NEXT_PUBLIC_REAL_RETURN_ANALYZER_NAME}</h3>
                   <p className="mb-6">
-                    Understand the real impact of inflation on your purchasing power with our 
-                    comprehensive calculator tool.
+                    Calculate your real investment returns over time and understand how inflation affects your 
+                    purchasing power with our comprehensive financial tool.
                   </p>
                   <div className="mb-8">
                     <div className="flex items-center mb-2">
@@ -82,16 +82,16 @@ export default function ProductsPage() {
                       />
                     </div>
                   </div>
-                  <h4 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Why Use Our Inflation Calculator?</h4>
+                  <h4 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Why Use Our {process.env.NEXT_PUBLIC_REAL_RETURN_ANALYZER_NAME}?</h4>
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    In today's economic climate, understanding the impact of inflation is more important than ever. 
-                    Our calculator provides accurate, data-driven insights to help you:
+                    In today's dynamic financial environment, understanding your real investment returns is essential. 
+                    Our analyzer provides accurate, data-driven insights to help you:
                   </p>
                   <ul className="space-y-2 text-gray-600 dark:text-gray-300">
                     <li>• Plan for future expenses and investments</li>
                     <li>• Understand the real value of your savings over time</li>
-                    <li>• Make informed financial decisions based on purchasing power</li>
-                    <li>• Compare different time periods and their economic impacts</li>
+                    <li>• Make informed investment decisions based on real returns</li>
+                    <li>• Compare performance across different time periods and economic conditions</li>
                   </ul>
                 </div>
               </div>
