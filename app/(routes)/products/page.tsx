@@ -28,14 +28,13 @@ export default function ProductsPage() {
           <div className="max-w-4xl mx-auto">
             <h2 className="heading-lg mb-12 text-center text-gray-900 dark:text-white">Our Products</h2>
             
-            {/* Inflation Calculator */}
+            {/* Real Return Analyzer*/}
             <div className="mb-16 bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden">
               <div className="md:flex">
                 <div className="md:w-2/5 bg-gradient-to-br from-blue-600 to-skynex-blue p-8 text-white">
                   <h3 className="text-2xl font-bold mb-4 text-white">{process.env.NEXT_PUBLIC_REAL_RETURN_ANALYZER_NAME}</h3>
                   <p className="mb-6">
-                    Calculate your real investment returns over time and understand how inflation affects your 
-                    purchasing power with our comprehensive financial tool.
+                    Analyze how inflation impacts your investments and purchasing power with our powerful financial calculator.
                   </p>
                   <div className="mb-8">
                     <div className="flex items-center mb-2">
@@ -76,7 +75,7 @@ export default function ProductsPage() {
                   <div className="aspect-w-16 aspect-h-9 mb-6">
                     <div className="w-full h-64 overflow-hidden rounded-lg">
                       <img 
-                        src="/images/tools/Real Return Analyzer.png" 
+                        src="/images/tools/Real_Return_Analyzer.png" 
                         alt="Real Return Analyzer Tool Interface" 
                         className="w-full h-full object-cover"
                       />
@@ -84,14 +83,13 @@ export default function ProductsPage() {
                   </div>
                   <h4 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Why Use Our {process.env.NEXT_PUBLIC_REAL_RETURN_ANALYZER_NAME}?</h4>
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    In today's dynamic financial environment, understanding your real investment returns is essential. 
-                    Our analyzer provides accurate, data-driven insights to help you:
+                    Get accurate, data-driven insights to optimize your investment strategy:
                   </p>
                   <ul className="space-y-2 text-gray-600 dark:text-gray-300">
-                    <li>• Plan for future expenses and investments</li>
-                    <li>• Understand the real value of your savings over time</li>
-                    <li>• Make informed investment decisions based on real returns</li>
-                    <li>• Compare performance across different time periods and economic conditions</li>
+                    <li>• Plan smarter with inflation-adjusted projections</li>
+                    <li>• Track real purchasing power over time</li>
+                    <li>• Make data-backed investment decisions</li>
+                    <li>• Compare performance across economic cycles</li>
                   </ul>
                 </div>
               </div>
