@@ -18,14 +18,13 @@ export default function Home() {
       <section className="relative pt-28 pb-20 overflow-hidden">
         <div className="container-custom relative z-10">
           <div className="flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2 mb-12 md:mb-0">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-skynex-blue via-blue-700 to-skynex-blue dark:from-white dark:via-sky-200 dark:to-blue-300 leading-tight mb-6">
-                Intelligent Decisions <br/>
-                <span className="text-gray-800 dark:text-white">Powered by Data & AI</span>
+            <div className="md:w-2/3 mb-12 md:mb-0">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-skynex-blue via-blue-700 to-skynex-blue dark:from-white dark:via-sky-200 dark:to-blue-300 leading-tight mb-6 pr-10">
+                Intelligent Decisions<br/>Powered by Data & AI
               </h1>
               
-              <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-lg">
-                SKYNEX delivers powerful SaaS products that transform complex data into clear, actionable insights for finance and e-commerce teams.
+              <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 max-w-xl">
+                SKYNEX delivers powerful products that transform complex data into clear, actionable insights, empowering teams to make better decisions and optimize operations.
               </p>
               
               <div className="flex flex-wrap gap-4">
@@ -44,15 +43,15 @@ export default function Home() {
               </div>
             </div>
             
-            <div className="md:w-1/2 relative">
+            <div className="md:w-1/3 relative">
               <div className="relative h-[400px] w-full">
                 {/* 3D element visualization */}
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="relative w-[350px] h-[350px]">
+                  <div className="relative w-[320px] h-[320px]">
                     <div className="absolute inset-0 rounded-full border-4 border-cyan-500/30 animate-spin-slow"></div>
                     <div className="absolute inset-4 rounded-full border-2 border-blue-500/40 animate-spin-reverse"></div>
                     
-                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[280px] h-[280px] rounded-2xl bg-white/10 backdrop-blur-lg border border-white/20 shadow-xl overflow-hidden flex items-center justify-center">
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[250px] h-[250px] rounded-2xl bg-white/10 backdrop-blur-lg border border-white/20 shadow-xl overflow-hidden flex items-center justify-center">
                       <Image 
                         src="/images/tools/Intelligent_Decisions_Transparent.png"
                         alt="SKYNEX Financial Tools" 
@@ -171,7 +170,7 @@ export default function Home() {
                     {process.env.NEXT_PUBLIC_REAL_RETURN_ANALYZER_NAME}
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">
-                  Understand how inflation affects your purchasing power over time with precise, 
+                  Track inflation impact on purchasing power with precise, 
                   data-driven insights and interactive visualizations.
                 </p>
                 <a 
@@ -185,30 +184,27 @@ export default function Home() {
             
             {/* Feature Card 2 */}
             <div className="bg-gradient-to-br from-white/80 to-white/90 dark:from-white/5 dark:to-white/10 backdrop-blur-md border border-gray-200 dark:border-white/10 rounded-xl overflow-hidden group hover:shadow-lg hover:shadow-purple-500/10 transition-all duration-300 relative">
-              <div className="absolute top-6 right-6 px-3 py-1 bg-gradient-to-r from-purple-600 to-pink-500 text-white text-xs font-medium rounded-full">
-                Coming Soon
-              </div>
-              <div className="h-48 bg-gradient-to-r from-purple-600 to-pink-500 p-6 flex items-center justify-center">
+              <div className="h-48 bg-gradient-to-r from-purple-600 to-indigo-700 p-6 flex items-center justify-center">
                 <div className="w-24 h-24 rounded-2xl bg-white/20 flex items-center justify-center backdrop-blur-sm">
                   <svg className="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+                    <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"></path>
                   </svg>
                 </div>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-3 group-hover:text-pink-600 dark:group-hover:text-pink-400 transition-colors duration-300">
-                  Financial Analytics Tools
+                <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-3 group-hover:text-indigo-600 dark:group-hover:text-indigo-400 transition-colors duration-300">
+                  Collab OS
                 </h3>
                 <p className="text-gray-600 dark:text-gray-400 mb-4">
-                  Gain powerful insights into financial markets and performance metrics with comprehensive 
-                  analytics designed for investors and decision makers.
+                  Lightweight, intuitive platform for seamless partner and campaign management, 
+                  helping teams collaborate more effectively.
                 </p>
-                <Link 
-                  href="/contact" 
-                  className="inline-block text-pink-600 dark:text-pink-400 font-medium group-hover:text-pink-700 dark:group-hover:text-white transition-colors duration-300"
+                <a 
+                  href="https://collabos.skynexdigital.com" 
+                  className="inline-block text-indigo-600 dark:text-indigo-400 font-medium group-hover:text-indigo-700 dark:group-hover:text-white transition-colors duration-300"
                 >
-                  Join Waitlist →
-                </Link>
+                  Launch Platform →
+                </a>
               </div>
             </div>
             
@@ -225,16 +221,16 @@ export default function Home() {
                 <h3 className="text-xl font-bold text-gray-800 dark:text-white mb-3 group-hover:text-emerald-600 dark:group-hover:text-emerald-400 transition-colors duration-300">
                   Custom AI Solutions
                 </h3>
-                <p className="text-gray-400 mb-4">
-                  Bespoke AI tools tailored to your specific business needs, from predictive analytics
-                  to natural language processing and data visualization.
+                <p className="text-gray-600 dark:text-gray-400 mb-4">
+                  Bespoke AI tools tailored to your business needs, from
+                  predictive analytics to data visualization.
                 </p>
-                <Link 
+                <a 
                   href="/contact" 
                   className="inline-block text-emerald-600 dark:text-emerald-400 font-medium group-hover:text-emerald-700 dark:group-hover:text-white transition-colors duration-300"
                 >
                   Learn More →
-                </Link>
+                </a>
               </div>
             </div>
           </div>

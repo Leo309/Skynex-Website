@@ -34,7 +34,7 @@ export default function ProductsPage() {
                 <div className="md:w-2/5 bg-gradient-to-br from-blue-600 to-skynex-blue p-8 text-white">
                   <h3 className="text-2xl font-bold mb-4 text-white">{process.env.NEXT_PUBLIC_REAL_RETURN_ANALYZER_NAME}</h3>
                   <p className="mb-6">
-                    Analyze how inflation impacts your investments and purchasing power with our powerful financial calculator.
+                    Track inflation's real impact on your investments and purchasing power.
                   </p>
                   <div className="mb-8">
                     <div className="flex items-center mb-2">
@@ -77,89 +77,86 @@ export default function ProductsPage() {
                       <img 
                         src="/images/tools/Real_Return_Analyzer.png" 
                         alt="Real Return Analyzer Tool Interface" 
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-contain"
                       />
                     </div>
                   </div>
                   <h4 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Why Use Our {process.env.NEXT_PUBLIC_REAL_RETURN_ANALYZER_NAME}?</h4>
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    Get accurate, data-driven insights to optimize your investment strategy:
+                    Data-driven insights for smarter investments:
                   </p>
                   <ul className="space-y-2 text-gray-600 dark:text-gray-300">
-                    <li>• Plan smarter with inflation-adjusted projections</li>
-                    <li>• Track real purchasing power over time</li>
-                    <li>• Make data-backed investment decisions</li>
-                    <li>• Compare performance across economic cycles</li>
+                    <li>• Inflation-adjusted projections</li>
+                    <li>• Real-time purchasing power tracking</li>
+                    <li>• Evidence-based decision making</li>
+                    <li>• Cross-cycle performance analysis</li>
                   </ul>
                 </div>
               </div>
             </div>
             
-            {/* Financial Analytics Tools (Coming Soon) */}
+            {/* CollabOS Partner Management System */}
             <div className="mb-16 bg-white dark:bg-gray-800 rounded-xl shadow-lg overflow-hidden relative">
-              <div className="absolute top-4 right-4 bg-gradient-to-r from-purple-600 to-blue-500 text-white text-sm py-1 px-3 rounded-full">
-                Coming Soon
-              </div>
               <div className="md:flex">
                 <div className="md:w-2/5 bg-gradient-to-br from-purple-600 to-indigo-700 p-8 text-white">
-                  <h3 className="text-2xl font-bold mb-4 text-white">Financial Analytics Tools</h3>
+                  <h3 className="text-2xl font-bold mb-4 text-white">Collab OS</h3>
                   <p className="mb-6">
-                    Gain powerful insights into financial markets and performance metrics with our comprehensive 
-                    analytics platform designed for investors and business decision makers.
+                    Lightweight, intuitive platform for seamless partner and campaign management.
                   </p>
                   <div className="mb-8">
                     <div className="flex items-center mb-2">
                       <svg className="w-5 h-5 mr-2 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                       </svg>
-                      <span>Advanced market indicators</span>
+                      <span>Easy-to-learn interface</span>
                     </div>
                     <div className="flex items-center mb-2">
                       <svg className="w-5 h-5 mr-2 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                       </svg>
-                      <span>Portfolio performance tracking</span>
+                      <span>Smart deadline alerts</span>
                     </div>
                     <div className="flex items-center mb-2">
                       <svg className="w-5 h-5 mr-2 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                       </svg>
-                      <span>Real-time financial data</span>
+                      <span>Real-time progress tracking</span>
                     </div>
                     <div className="flex items-center">
                       <svg className="w-5 h-5 mr-2 text-white" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>
                       </svg>
-                      <span>Predictive analytics</span>
+                      <span>Data-driven insights</span>
                     </div>
                   </div>
-                  <Link 
-                    href="/contact" 
+                  <a 
+                    href="https://collabos.skynexdigital.com" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
                     className="inline-block bg-white text-indigo-700 hover:bg-blue-50 font-bold py-3 px-6 rounded-md transition-colors"
                   >
-                    Join Waitlist
-                  </Link>
+                    Launch Platform
+                  </a>
                 </div>
                 <div className="md:w-3/5 p-8">
                   <div className="aspect-w-16 aspect-h-9 mb-6">
                     <div className="w-full h-64 overflow-hidden rounded-lg">
                       <img 
-                        src="/images/tools/Financial Analytics Tools.png" 
-                        alt="Financial Analytics Tools Interface" 
-                        className="w-full h-full object-cover"
+                        src="/images/tools/CollabOS.png" 
+                        alt="CollabOS Partner Management System Interface" 
+                        className="w-full h-full object-contain"
                       />
                     </div>
                   </div>
-                  <h4 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Transform Your Financial Decision Making</h4>
+                  <h4 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Simplify Your Collaboration</h4>
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    In today's complex financial markets, having comprehensive analytics is essential for making 
-                    informed decisions. Our Financial Analytics Tools will help you:
+                    Boost efficiency with a platform designed for speed and clarity:
                   </p>
                   <ul className="space-y-2 text-gray-600 dark:text-gray-300">
-                    <li>• Track and analyze your investments in real-time</li>
-                    <li>• Identify market trends and potential opportunities</li>
-                    <li>• Compare performance across different asset classes</li>
-                    <li>• Make data-driven financial decisions with confidence</li>
+                    <li>• Centralize partnerships in one intuitive hub</li>
+                    <li>• Never miss deadlines with timely notifications</li>
+                    <li>• Monitor project status with minimal effort</li>
+                    <li>• Make smarter decisions with visual analytics</li>
                   </ul>
                 </div>
               </div>
@@ -198,7 +195,7 @@ export default function ProductsPage() {
               </div>
               <h3 className="text-lg font-bold mb-2 text-center text-gray-900 dark:text-white">Research</h3>
               <p className="text-gray-600 dark:text-gray-300 text-center">
-                We begin with deep market research and problem identification to ensure our tools address real needs.
+                We identify real market needs through in-depth research and analysis.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-sm">
@@ -211,7 +208,7 @@ export default function ProductsPage() {
               </div>
               <h3 className="text-lg font-bold mb-2 text-center text-gray-900 dark:text-white">Design</h3>
               <p className="text-gray-600 dark:text-gray-300 text-center">
-                Our UX experts design intuitive, accessible interfaces that make complex data easy to understand.
+                Our intuitive interfaces make complex financial data accessible.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-sm">
@@ -224,7 +221,7 @@ export default function ProductsPage() {
               </div>
               <h3 className="text-lg font-bold mb-2 text-center text-gray-900 dark:text-white">Development</h3>
               <p className="text-gray-600 dark:text-gray-300 text-center">
-                Our engineers build robust, scalable solutions using modern technology stacks and best practices.
+                Built with cutting-edge technology for reliability and performance.
               </p>
             </div>
             <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-sm">
@@ -238,7 +235,7 @@ export default function ProductsPage() {
               </div>
               <h3 className="text-lg font-bold mb-2 text-center text-gray-900 dark:text-white">Refinement</h3>
               <p className="text-gray-600 dark:text-gray-300 text-center">
-                We continuously gather feedback and improve our tools to ensure they deliver maximum value.
+                Continuous improvement based on user feedback and market changes.
               </p>
             </div>
           </div>
@@ -284,34 +281,7 @@ export default function ProductsPage() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-br from-skynex-blue to-blue-700 text-white">
-        <div className="container-custom">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="heading-lg mb-6">Ready to Experience Our Products?</h2>
-            <p className="text-lg mb-8 text-blue-100">
-              Whether you're looking to use our products or discuss custom solutions for your business, 
-              we're here to help you leverage data and technology for better decision-making.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
-                href={process.env.NEXT_PUBLIC_REAL_RETURN_ANALYZER_URL} 
-                target="_blank" 
-                rel="noopener noreferrer" 
-                className="bg-white text-blue-700 hover:bg-blue-50 font-bold py-3 px-8 rounded-md transition-colors text-lg"
-              >
-                Try {process.env.NEXT_PUBLIC_REAL_RETURN_ANALYZER_NAME}
-              </a>
-              <Link 
-                href="/contact" 
-                className="bg-transparent hover:bg-blue-600 text-white font-bold py-3 px-8 border border-white rounded-md transition-colors text-lg"
-              >
-                Contact Us
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+
     </div>
   );
 }
